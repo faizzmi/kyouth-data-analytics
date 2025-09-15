@@ -1,6 +1,9 @@
 Missing Data Handling:
 - Removal:- drop entire row (eg: Food_Type = ['Japanese','Western', 'Local', 'Turkish','Chinese']): for categorial data
+    dropna
+
 - Imputation:- use mean to change the missing data or median (if the is changes in mean): for numerical data only
+    fillna
 
 Data Manipulation:
 - create new colum
