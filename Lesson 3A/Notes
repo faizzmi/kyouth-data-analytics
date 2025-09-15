@@ -1,0 +1,33 @@
+Missing Data Handling:
+- Removal:- drop entire row (eg: Food_Type = ['Japanese','Western', 'Local', 'Turkish','Chinese']): for categorial data
+- Imputation:- use mean to change the missing data or median (if the is changes in mean): for numerical data only
+
+Data Manipulation:
+- create new colum
+    #create new column
+    df['New_Column] =  df['Old_Column'] + 10
+
+- encode categorial data
+    #map the category
+    category_mapping = {
+        'Cold': 0,
+        'Hot': 1
+    }
+
+    # Apply the mapping
+    df['Category_Encoded'] = df['Category'].map(category_mapping)
+
+- extract from date columns
+
+# Ensure 'Date_of_Visit' is in datetime format
+    df['Date_of_Visit'] = pd.to_datetime(df['Date_of_Visit'])
+
+    # Extract useful date-based features
+    df['Year'] = df['Date_of_Visit'].dt.year
+    df['Month'] = df['Date_of_Visit'].dt.month
+    df['Day'] = df['Date_of_Visit'].dt.day
+    df['Day_of_Week'] = df['Date_of_Visit'].dt.day_name()
+
+    # Display the transformed dataset
+    df[['Date_of_Visit', 'Year', 'Month', 'Day', 'Day_of_Week']].head()
+
