@@ -34,3 +34,20 @@ Data Manipulation:
     # Display the transformed dataset
     df[['Date_of_Visit', 'Year', 'Month', 'Day', 'Day_of_Week']].head()
 
+Data Transformation:
+    check on:
+        - formatting
+        - special character
+        - data type esp float/int adn date formating
+        - business hours
+
+    Converting data types
+    convert data types = df['skldnf'].astype(int/float/string)
+
+    Clean and Format dates
+
+    Validating  data range
+    df['Default_Date'] = pd.to_datetime(df['Date_of_Visit'], errors ='coerce',dayfirst=True).dt.strftime('%m-%d-%Y')
+
+    Formating categoria; data
+
