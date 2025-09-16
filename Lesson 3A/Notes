@@ -69,4 +69,19 @@ Data Transformation:
         df['Price'] = df['Price'].apply(lambda x: x if pd.notnull(x) and x > 0 else df['Price'].median())
         df[df['Price']] <= 0
 
+Data Joining
+    by merging using .merge
+    - merged_pdf = customer.merge(data_1, on="id_data_1", how="inner/outer/left/right)
+        - inner - only keeps rows with matches in both tables
+        - outer - keeps all rows from both tables
+        - left - keeps all rows from the left table
+        - right - keeps all rows from the right table
+
+    grouping and aggregating data with .groupby()
+    - avg_spending_by_gender = df.groupby("Gender")["Price"].mean().reset_index()
+    # sometime use sum, mean or count
+
+    - popular_food_by_occupation = df.groupby(["Occupation","Food_Item"]).size().reset_index(name="Count")
+
+
 
