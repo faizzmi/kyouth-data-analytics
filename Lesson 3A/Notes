@@ -1,3 +1,9 @@
+df.info() # df.info(number_of_row) default 5
+df.tail()
+
+df.dtypes
+df.describe()
+
 Missing Data Handling:
 - Removal:- drop entire row (eg: Food_Type = ['Japanese','Western', 'Local', 'Turkish','Chinese']): for categorial data
     dropna
@@ -45,9 +51,22 @@ Data Transformation:
     convert data types = df['skldnf'].astype(int/float/string)
 
     Clean and Format dates
-
-    Validating  data range
     df['Default_Date'] = pd.to_datetime(df['Date_of_Visit'], errors ='coerce',dayfirst=True).dt.strftime('%m-%d-%Y')
 
-    Formating categoria; data
+    Formating categorial data
+    - standardized the string
+        df['Weather'] =  df['Weather'].str.lower().str.strip()
+        df['Weather'].unique()
+
+    - shorten day name
+        df['Day_Abbrev'] = df['Day_of_Week'].str[:3]
+        df.head()
+
+
+
+    Validating  data range
+    missing data, unrealistic or just wrong :- need to validate either correct or wrong
+        df['Price'] = df['Price'].apply(lambda x: x if pd.notnull(x) and x > 0 else df['Price'].median())
+        df[df['Price']] <= 0
+
 
