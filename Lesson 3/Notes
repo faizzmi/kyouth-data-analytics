@@ -52,6 +52,8 @@ Data Transformation:
 
     Clean and Format dates
     df['Default_Date'] = pd.to_datetime(df['Date_of_Visit'], errors ='coerce',dayfirst=True).dt.strftime('%m-%d-%Y')
+    # dayfirst=True means we let panda know the format in iso is DD-MM-YYYY for iso format DD-MM-YYYY @ MM-DD-YYYY
+    # but if date is in YYYY-MM-DD pandas already year is in front so no need date
 
     Formating categorial data
     - standardized the string
@@ -62,10 +64,10 @@ Data Transformation:
         df['Day_Abbrev'] = df['Day_of_Week'].str[:3]
         df.head()
 
-
-
     Validating  data range
     missing data, unrealistic or just wrong :- need to validate either correct or wrong
+        # use ternary operation and lambda, both fine
+        # ternary (statement if true) if (operation) else (statement if false)
         df['Price'] = df['Price'].apply(lambda x: x if pd.notnull(x) and x > 0 else df['Price'].median())
         df[df['Price']] <= 0
 
