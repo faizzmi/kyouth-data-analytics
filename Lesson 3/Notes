@@ -72,10 +72,50 @@ Data Transformation:
 Data Joining
     by merging using .merge
     - merged_pdf = customer.merge(data_1, on="id_data_1", how="inner/outer/left/right)
+        - example table:
+            table A:
+            | ID | Name  | City      |
+            |----|-------|-----------|
+            | 1  | Ali   | KL        |
+            | 2  | Bala  | Penang    |
+            | 3  | Chong | Johor     |
+
+            table B:
+            | ID | Age | Dept      |
+            |----|-----|-----------|
+            | 2  | 25  | Finance   |
+            | 3  | 30  | IT        |
+            | 4  | 40  | Marketing |
+
         - inner - only keeps rows with matches in both tables
+        | ID | Name  | City   | Age | Dept    |
+        |----|-------|--------|-----|---------|
+        | 2  | Bala  | Penang | 25  | Finance |
+        | 3  | Chong | Johor  | 30  | IT      |
+
         - outer - keeps all rows from both tables
+        | ID | Name  | City   | Age  | Dept      |
+        |----|-------|--------|------|-----------|
+        | 1  | Ali   | KL     | NULL | NULL      |
+        | 2  | Bala  | Penang | 25   | Finance   |
+        | 3  | Chong | Johor  | 30   | IT        |
+        | 4  | NULL  | NULL   | 40   | Marketing |
+
+
         - left - keeps all rows from the left table
+        | ID | Name  | City   | Age  | Dept      |
+        |----|-------|--------|------|-----------|
+        | 1  | Ali   | KL     | NULL | NULL      |
+        | 2  | Bala  | Penang | 25   | Finance   |
+        | 3  | Chong | Johor  | 30   | IT        |
+
         - right - keeps all rows from the right table
+        | ID | Name  | City   | Age | Dept      |
+        |----|-------|--------|-----|-----------|
+        | 2  | Bala  | Penang | 25  | Finance   |
+        | 3  | Chong | Johor  | 30  | IT        |
+        | 4  | NULL  | NULL   | 40  | Marketing |
+
 
     grouping and aggregating data with .groupby()
     - avg_spending_by_gender = df.groupby("Gender")["Price"].mean().reset_index()
