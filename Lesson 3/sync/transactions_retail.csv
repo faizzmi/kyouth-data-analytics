@@ -1,0 +1,751 @@
+id,transaction_id,transaction_date,payment_method,total_spent,discount_applied,items_purchased,return_status
+247,1,01/1/2023,PayPal,608,180,1,No Return
+727,2,02/1/2023,Cash,193,112,1,Returned
+614,3,03/1/2023,PayPal,815,56,6,Returned
+56,4,04/1/2023,PayPal,885,86,3,No Return
+268,5,05/1/2023,PayPal,92,101,9,No Return
+460,6,06/1/2023,Cash,734,153,5,No Return
+775,7,07/1/2023,PayPal,512,160,6,No Return
+785,8,08/1/2023,Cash,294,104,9,No Return
+641,9,09/1/2023,Cash,797,177,6,No Return
+548,10,10/1/2023,Cash,129,52,5,No Return
+25,11,11/1/2023,Credit Card,24,185,4,No Return
+539,12,12/1/2023,Debit Card,741,34,7,No Return
+161,13,13/1/2023,Cash,666,115,7,No Return
+230,14,14/1/2023,Debit Card,392,106,3,No Return
+670,15,15/1/2023,Cash,396,142,7,No Return
+659,16,16/1/2023,PayPal,74,173,6,No Return
+129,17,17/1/2023,Debit Card,,40,7,No Return
+146,18,18/1/2023,Debit Card,940,46,5,No Return
+61,19,19/1/2023,Debit Card,382,179,8,No Return
+289,20,20/1/2023,Debit Card,917,96,4,Returned
+221,21,21/1/2023,Debit Card,257,0,3,Returned
+450,22,22/1/2023,Credit Card,296,198,3,No Return
+250,23,23/1/2023,Debit Card,728,106,1,No Return
+416,24,24/1/2023,Cash,350,15,3,Returned
+378,25,25/1/2023,PayPal,691,180,8,Returned
+346,26,26/1/2023,PayPal,296,183,4,No Return
+299,27,27/1/2023,Cash,837,173,2,No Return
+383,28,28/1/2023,Cash,897,105,8,No Return
+50,29,29/1/2023,Cash,930,181,1,No Return
+331,30,30/1/2023,PayPal,912,158,6,Returned
+348,31,31/1/2023,Cash,178,10,9,No Return
+843,32,01/2/2023,Debit Card,688,30,4,No Return
+663,33,02/2/2023,PayPal,784,15,5,No Return
+34,34,03/2/2023,PayPal,560,117,8,No Return
+640,35,04/2/2023,Cash,680,148,9,No Return
+216,36,05/2/2023,Credit Card,,176,4,No Return
+931,37,06/2/2023,Debit Card,840,168,3,No Return
+99,38,07/2/2023,Cash,85,20,1,No Return
+35,39,08/2/2023,Debit Card,789,167,1,No Return
+70,40,09/2/2023,PayPal,290,125,8,Returned
+568,41,10/2/2023,Cash,438,99,7,No Return
+396,42,11/2/2023,Debit Card,269,178,2,Returned
+125,43,12/2/2023,Cash,279,162,6,No Return
+449,44,13/2/2023,PayPal,352,78,3,No Return
+879,45,14/2/2023,Credit Card,13,106,7,Returned
+223,46,15/2/2023,PayPal,40,52,9,No Return
+774,47,16/2/2023,PayPal,250,135,3,No Return
+490,48,17/2/2023,PayPal,764,191,7,No Return
+515,49,18/2/2023,Debit Card,863,48,7,No Return
+683,50,19/2/2023,Cash,754,71,9,No Return
+316,51,20/2/2023,PayPal,736,88,7,No Return
+554,52,21/2/2023,Cash,658,167,9,No Return
+8,53,22/2/2023,Debit Card,290,70,1,No Return
+993,54,23/2/2023,Credit Card,775,88,5,No Return
+191,55,24/2/2023,Debit Card,340,95,6,No Return
+926,56,25/2/2023,Credit Card,42,60,9,No Return
+948,57,26/2/2023,Debit Card,193,72,9,Returned
+617,58,27/2/2023,Cash,768,68,3,No Return
+67,59,28/2/2023,Cash,677,71,6,No Return
+951,60,01/3/2023,PayPal,705,77,4,No Return
+244,61,02/3/2023,PayPal,694,175,5,No Return
+833,62,03/3/2023,Cash,293,154,5,No Return
+178,63,04/3/2023,Cash,642,120,7,No Return
+757,64,05/3/2023,Cash,538,95,9,No Return
+825,65,06/3/2023,Cash,771,83,8,No Return
+766,66,07/3/2023,PayPal,843,147,9,No Return
+494,67,08/3/2023,Debit Card,927,198,7,No Return
+95,68,09/3/2023,PayPal,794,126,9,No Return
+622,69,10/3/2023,PayPal,687,191,8,No Return
+274,70,11/3/2023,Cash,548,41,5,Returned
+605,71,12/3/2023,Debit Card,18,7,6,No Return
+397,72,13/3/2023,PayPal,475,11,5,Returned
+98,73,14/3/2023,PayPal,,169,1,No Return
+282,74,15/3/2023,Credit Card,682,180,7,No Return
+720,75,16/3/2023,PayPal,289,197,9,No Return
+714,76,17/3/2023,Debit Card,334,64,7,No Return
+654,77,18/3/2023,Credit Card,988,199,4,No Return
+441,78,19/3/2023,Credit Card,214,53,4,Returned
+417,79,20/3/2023,Debit Card,17,180,9,No Return
+750,80,21/3/2023,Credit Card,948,10,6,No Return
+886,81,22/3/2023,Debit Card,649,195,5,No Return
+969,82,23/3/2023,Credit Card,339,101,6,Returned
+15,83,24/3/2023,Cash,845,48,9,No Return
+408,84,25/3/2023,Credit Card,891,50,9,No Return
+472,85,26/3/2023,Cash,840,105,3,Returned
+64,86,27/3/2023,Cash,845,147,4,No Return
+859,87,28/3/2023,PayPal,342,70,6,No Return
+920,88,29/3/2023,PayPal,479,132,6,No Return
+761,89,30/3/2023,Credit Card,754,41,1,No Return
+591,90,31/3/2023,Credit Card,425,8,1,No Return
+118,91,01/4/2023,Debit Card,568,183,4,No Return
+24,92,02/4/2023,Cash,11,37,9,No Return
+496,93,03/4/2023,PayPal,612,136,6,No Return
+544,94,04/4/2023,Cash,13,99,9,No Return
+71,95,05/4/2023,PayPal,975,42,5,No Return
+643,96,06/4/2023,Cash,449,159,7,No Return
+930,97,07/4/2023,Credit Card,410,129,1,No Return
+877,98,08/4/2023,Cash,269,174,6,Returned
+14,99,09/4/2023,Cash,441,123,6,No Return
+292,100,10/4/2023,Cash,490,111,1,No Return
+525,101,11/4/2023,Debit Card,579,92,6,No Return
+466,102,12/4/2023,PayPal,62,32,5,No Return
+623,103,13/4/2023,Cash,148,190,6,No Return
+536,104,14/4/2023,Debit Card,639,171,5,Returned
+473,105,15/4/2023,PayPal,298,128,9,No Return
+690,106,16/4/2023,Cash,867,194,4,No Return
+866,107,17/4/2023,Credit Card,117,116,4,No Return
+167,108,18/4/2023,Debit Card,617,6,8,No Return
+13,109,19/4/2023,Cash,888,149,2,No Return
+943,110,20/4/2023,PayPal,518,23,7,No Return
+197,111,21/4/2023,Debit Card,418,161,3,No Return
+433,112,22/4/2023,Credit Card,218,122,3,No Return
+977,113,23/4/2023,Debit Card,536,194,2,No Return
+305,114,24/4/2023,PayPal,910,93,7,No Return
+902,115,25/4/2023,PayPal,970,112,6,No Return
+820,116,26/4/2023,Debit Card,949,100,2,No Return
+857,117,27/4/2023,Debit Card,653,184,6,No Return
+303,118,28/4/2023,PayPal,611,14,6,No Return
+359,119,29/4/2023,Credit Card,736,57,8,No Return
+686,120,30/4/2023,Cash,175,26,6,No Return
+500,121,01/5/2023,Debit Card,994,102,8,No Return
+377,122,02/5/2023,PayPal,760,50,6,No Return
+828,123,03/5/2023,PayPal,519,63,1,No Return
+901,124,04/5/2023,Cash,935,2,4,No Return
+844,125,05/5/2023,Credit Card,204,172,7,No Return
+355,126,06/5/2023,Cash,186,9,4,Returned
+108,127,07/5/2023,Debit Card,591,158,3,No Return
+621,128,08/5/2023,Credit Card,89,157,8,No Return
+358,129,09/5/2023,Credit Card,824,72,1,No Return
+646,130,10/5/2023,Cash,884,158,4,No Return
+398,131,11/5/2023,Cash,551,92,7,No Return
+941,132,12/5/2023,Debit Card,496,65,6,No Return
+12,133,13/5/2023,PayPal,441,97,7,No Return
+352,134,14/5/2023,Credit Card,244,16,3,No Return
+779,135,15/5/2023,Credit Card,988,84,6,No Return
+883,136,16/5/2023,Debit Card,179,190,4,No Return
+168,137,17/5/2023,Debit Card,162,76,7,No Return
+763,138,18/5/2023,Credit Card,111,189,2,No Return
+498,139,19/5/2023,Cash,172,88,5,No Return
+438,140,20/5/2023,PayPal,925,187,2,No Return
+517,141,21/5/2023,Cash,966,144,6,No Return
+495,142,22/5/2023,Debit Card,929,79,5,No Return
+162,143,23/5/2023,PayPal,738,14,1,No Return
+597,144,24/5/2023,Debit Card,182,81,2,Returned
+619,145,25/5/2023,Debit Card,675,199,5,No Return
+939,146,26/5/2023,Credit Card,506,95,5,No Return
+323,147,27/5/2023,PayPal,714,119,4,No Return
+32,148,28/5/2023,Cash,537,13,2,No Return
+430,149,29/5/2023,Credit Card,666,142,9,No Return
+85,150,30/5/2023,PayPal,34,29,6,No Return
+203,151,31/5/2023,PayPal,217,183,2,No Return
+773,152,01/6/2023,PayPal,272,125,2,No Return
+130,153,02/6/2023,Cash,374,122,1,No Return
+389,154,03/6/2023,PayPal,812,194,4,No Return
+217,155,04/6/2023,PayPal,329,60,8,No Return
+829,156,05/6/2023,Credit Card,786,194,5,No Return
+592,157,06/6/2023,Credit Card,338,22,4,No Return
+666,158,07/6/2023,Cash,343,146,2,No Return
+263,159,08/6/2023,Cash,454,91,6,No Return
+903,160,09/6/2023,PayPal,105,167,9,No Return
+395,161,10/6/2023,Cash,799,161,8,Returned
+572,162,11/6/2023,PayPal,881,184,4,No Return
+307,163,12/6/2023,Credit Card,778,9,7,No Return
+732,164,13/6/2023,Debit Card,255,29,1,No Return
+49,165,14/6/2023,Debit Card,215,131,1,No Return
+368,166,15/6/2023,Credit Card,204,72,4,No Return
+166,167,16/6/2023,PayPal,185,143,8,No Return
+467,168,17/6/2023,PayPal,608,168,5,No Return
+974,169,18/6/2023,Cash,543,132,5,No Return
+287,170,19/6/2023,Cash,106,87,9,No Return
+711,171,20/6/2023,Credit Card,856,107,4,No Return
+512,172,21/6/2023,Credit Card,215,17,7,No Return
+838,173,22/6/2023,PayPal,134,33,9,No Return
+280,174,23/6/2023,Debit Card,839,196,1,No Return
+281,175,24/6/2023,Credit Card,972,23,4,No Return
+262,176,25/6/2023,Debit Card,638,6,2,No Return
+556,177,26/6/2023,Debit Card,258,29,9,No Return
+845,178,27/6/2023,Credit Card,756,11,8,No Return
+998,179,28/6/2023,Debit Card,442,115,3,No Return
+291,180,29/6/2023,Cash,604,73,7,No Return
+569,181,30/6/2023,Debit Card,713,140,6,No Return
+245,182,01/7/2023,Debit Card,324,67,1,No Return
+954,183,02/7/2023,Cash,426,85,6,No Return
+784,184,03/7/2023,Debit Card,142,9,5,Returned
+620,185,04/7/2023,PayPal,135,95,9,Returned
+952,186,05/7/2023,Credit Card,38,1,1,No Return
+165,187,06/7/2023,Cash,653,45,5,No Return
+18,188,07/7/2023,Cash,110,190,2,No Return
+107,189,08/7/2023,Debit Card,187,81,2,No Return
+678,190,09/7/2023,Cash,490,23,4,No Return
+22,191,10/7/2023,Credit Card,308,153,4,No Return
+202,192,11/7/2023,Debit Card,339,66,1,No Return
+400,193,12/7/2023,Credit Card,933,97,9,Returned
+636,194,13/7/2023,Cash,218,86,1,No Return
+28,195,14/7/2023,Cash,14,134,3,No Return
+580,196,15/7/2023,Cash,676,72,3,No Return
+451,197,16/7/2023,Cash,829,97,8,No Return
+421,198,17/7/2023,Credit Card,739,131,2,No Return
+740,199,18/7/2023,PayPal,771,195,7,No Return
+206,200,19/7/2023,Cash,979,131,9,No Return
+995,201,20/7/2023,Debit Card,924,85,5,No Return
+288,202,21/7/2023,PayPal,685,79,1,Returned
+236,203,22/7/2023,Debit Card,832,1,1,No Return
+306,204,23/7/2023,Cash,390,166,7,No Return
+982,205,24/7/2023,Credit Card,257,169,7,No Return
+371,206,25/7/2023,Debit Card,216,40,7,No Return
+671,207,26/7/2023,Credit Card,837,177,7,No Return
+680,208,27/7/2023,Debit Card,363,197,6,No Return
+159,209,28/7/2023,Debit Card,878,16,1,Returned
+990,210,29/7/2023,Cash,894,171,9,No Return
+148,211,30/7/2023,Debit Card,22,103,6,No Return
+96,212,31/7/2023,PayPal,334,100,3,No Return
+357,213,01/8/2023,Debit Card,875,1,7,No Return
+270,214,02/8/2023,PayPal,801,96,5,No Return
+180,215,03/8/2023,PayPal,716,79,2,No Return
+458,216,04/8/2023,Credit Card,568,147,2,No Return
+665,217,05/8/2023,Cash,427,111,4,No Return
+318,218,06/8/2023,Debit Card,581,128,1,No Return
+427,219,07/8/2023,Debit Card,176,120,2,No Return
+482,220,08/8/2023,Cash,943,174,2,No Return
+106,221,09/8/2023,Credit Card,564,57,7,No Return
+689,222,10/8/2023,PayPal,183,159,4,No Return
+885,223,11/8/2023,Cash,929,115,3,No Return
+884,224,12/8/2023,Debit Card,685,183,2,Returned
+888,225,13/8/2023,PayPal,236,187,2,No Return
+105,226,14/8/2023,Credit Card,639,197,3,No Return
+847,227,15/8/2023,Cash,739,70,1,No Return
+698,228,16/8/2023,Debit Card,815,71,7,No Return
+190,229,17/8/2023,Credit Card,195,111,8,No Return
+497,230,18/8/2023,PayPal,772,161,9,No Return
+756,231,19/8/2023,PayPal,653,14,6,No Return
+84,232,20/8/2023,Cash,150,90,1,No Return
+968,233,21/8/2023,Debit Card,34,49,6,No Return
+47,234,22/8/2023,Credit Card,647,149,1,No Return
+184,235,23/8/2023,PayPal,786,154,2,No Return
+631,236,24/8/2023,Cash,184,37,7,No Return
+980,237,25/8/2023,Cash,839,119,4,No Return
+141,238,26/8/2023,Cash,369,88,8,No Return
+723,239,27/8/2023,Debit Card,535,166,9,No Return
+445,240,28/8/2023,Cash,851,5,6,No Return
+272,241,29/8/2023,PayPal,449,50,9,Returned
+94,242,30/8/2023,PayPal,94,97,6,No Return
+390,243,31/8/2023,Credit Card,942,163,5,Returned
+967,244,01/9/2023,PayPal,762,57,7,No Return
+219,245,02/9/2023,Debit Card,467,195,6,No Return
+53,246,03/9/2023,Credit Card,800,64,6,Returned
+480,247,04/9/2023,Debit Card,915,167,1,No Return
+393,248,05/9/2023,PayPal,748,41,5,No Return
+379,249,06/9/2023,Cash,260,101,8,Returned
+363,250,07/9/2023,Cash,642,130,5,No Return
+697,251,08/9/2023,Credit Card,639,113,7,No Return
+819,252,09/9/2023,PayPal,591,65,9,No Return
+955,253,10/9/2023,PayPal,337,25,4,No Return
+702,254,11/9/2023,PayPal,443,192,6,No Return
+541,255,12/9/2023,Cash,517,193,4,No Return
+906,256,13/9/2023,Credit Card,318,153,4,No Return
+792,257,14/9/2023,Credit Card,21,88,8,No Return
+907,258,15/9/2023,PayPal,205,181,1,Returned
+486,259,16/9/2023,PayPal,97,66,4,Returned
+713,260,17/9/2023,Debit Card,707,95,4,No Return
+997,261,18/9/2023,Credit Card,936,37,3,No Return
+577,262,19/9/2023,PayPal,50,147,2,No Return
+728,263,20/9/2023,PayPal,163,190,9,No Return
+72,264,21/9/2023,Cash,156,192,2,No Return
+319,265,22/9/2023,PayPal,189,153,4,No Return
+248,266,23/9/2023,Cash,105,74,3,No Return
+40,267,24/9/2023,Cash,70,190,2,No Return
+921,268,25/9/2023,Cash,626,120,4,No Return
+589,269,26/9/2023,Debit Card,620,28,3,No Return
+119,270,27/9/2023,Cash,974,111,4,No Return
+582,271,28/9/2023,Credit Card,834,199,6,Returned
+131,272,29/9/2023,Cash,615,113,9,Returned
+725,273,30/9/2023,Debit Card,26,82,8,No Return
+465,274,01/10/2023,Credit Card,29,114,1,No Return
+858,275,02/10/2023,Debit Card,549,169,8,No Return
+402,276,03/10/2023,Debit Card,983,45,7,No Return
+312,277,04/10/2023,Cash,803,1,2,No Return
+212,278,05/10/2023,Debit Card,10,178,2,No Return
+181,279,06/10/2023,Credit Card,322,61,6,No Return
+624,280,07/10/2023,Cash,28,161,8,No Return
+765,281,08/10/2023,Credit Card,351,32,8,Returned
+276,282,09/10/2023,Cash,581,190,7,No Return
+887,283,10/10/2023,Cash,61,15,8,No Return
+123,284,11/10/2023,Debit Card,519,176,7,No Return
+551,285,12/10/2023,Credit Card,377,78,5,No Return
+555,286,13/10/2023,Cash,995,48,3,No Return
+573,287,14/10/2023,Credit Card,32,109,8,No Return
+994,288,15/10/2023,Credit Card,164,26,9,No Return
+405,289,16/10/2023,Cash,970,26,4,No Return
+476,290,17/10/2023,Debit Card,387,129,1,Returned
+532,291,18/10/2023,Debit Card,90,134,9,Returned
+706,292,19/10/2023,PayPal,435,82,1,No Return
+381,293,20/10/2023,Debit Card,874,117,7,No Return
+709,294,21/10/2023,Cash,94,156,2,No Return
+11,295,22/10/2023,Cash,427,69,6,No Return
+855,296,23/10/2023,Cash,139,150,1,Returned
+746,297,24/10/2023,Cash,683,65,2,No Return
+737,298,25/10/2023,PayPal,151,42,9,No Return
+769,299,26/10/2023,Debit Card,110,68,6,No Return
+214,300,27/10/2023,Credit Card,575,142,6,No Return
+78,301,28/10/2023,Cash,946,80,9,No Return
+978,302,29/10/2023,Credit Card,495,34,9,No Return
+647,303,30/10/2023,Debit Card,308,118,6,No Return
+308,304,31/10/2023,Credit Card,568,93,7,No Return
+213,305,01/11/2023,PayPal,588,152,4,No Return
+894,306,02/11/2023,PayPal,432,65,4,Returned
+443,307,03/11/2023,Cash,553,82,9,No Return
+199,308,04/11/2023,Credit Card,723,50,7,No Return
+830,309,05/11/2023,PayPal,718,106,5,No Return
+283,310,06/11/2023,Cash,868,51,4,No Return
+266,311,07/11/2023,Credit Card,195,90,9,No Return
+687,312,08/11/2023,Credit Card,552,199,9,No Return
+726,313,09/11/2023,Cash,134,163,7,Returned
+747,314,10/11/2023,Credit Card,53,169,5,No Return
+258,315,11/11/2023,PayPal,500,77,5,Returned
+434,316,12/11/2023,Cash,477,178,3,No Return
+373,317,13/11/2023,PayPal,537,60,5,No Return
+27,318,14/11/2023,Credit Card,906,183,7,No Return
+493,319,15/11/2023,Debit Card,737,36,4,No Return
+508,320,16/11/2023,Cash,224,121,9,Returned
+560,321,17/11/2023,Debit Card,950,129,2,No Return
+69,322,18/11/2023,Cash,864,37,4,No Return
+58,323,19/11/2023,PayPal,880,27,1,No Return
+54,324,20/11/2023,Cash,895,123,4,No Return
+716,325,21/11/2023,PayPal,700,147,6,No Return
+767,326,22/11/2023,Credit Card,504,38,7,Returned
+160,327,23/11/2023,Cash,487,130,6,No Return
+976,328,24/11/2023,PayPal,517,103,4,No Return
+361,329,25/11/2023,Cash,782,182,9,No Return
+616,330,26/11/2023,Cash,791,165,4,No Return
+484,331,27/11/2023,PayPal,98,172,7,No Return
+861,332,28/11/2023,Debit Card,585,35,4,Returned
+699,333,29/11/2023,Debit Card,424,56,4,No Return
+76,334,30/11/2023,Credit Card,612,145,7,Returned
+127,335,01/12/2023,Cash,62,86,9,No Return
+304,336,02/12/2023,PayPal,239,192,3,No Return
+545,337,03/12/2023,Cash,270,38,8,No Return
+237,338,04/12/2023,Debit Card,289,8,8,No Return
+426,339,05/12/2023,PayPal,165,15,3,No Return
+581,340,06/12/2023,PayPal,843,69,6,No Return
+238,341,07/12/2023,Cash,513,23,3,Returned
+800,342,08/12/2023,Credit Card,361,150,3,No Return
+243,343,09/12/2023,Credit Card,690,0,3,No Return
+510,344,10/12/2023,PayPal,595,70,7,No Return
+234,345,11/12/2023,PayPal,304,130,4,No Return
+653,346,12/12/2023,PayPal,105,133,1,No Return
+193,347,13/12/2023,Debit Card,764,93,7,No Return
+588,348,14/12/2023,PayPal,634,159,2,No Return
+313,349,15/12/2023,Debit Card,45,67,6,No Return
+336,350,16/12/2023,Cash,436,11,8,No Return
+889,351,17/12/2023,PayPal,377,90,4,No Return
+507,352,18/12/2023,Debit Card,412,136,7,No Return
+989,353,19/12/2023,Credit Card,448,62,7,No Return
+372,354,20/12/2023,Cash,171,125,7,No Return
+736,355,21/12/2023,PayPal,732,114,8,No Return
+201,356,22/12/2023,Credit Card,45,42,9,Returned
+585,357,23/12/2023,PayPal,669,39,2,No Return
+384,358,24/12/2023,Cash,272,16,7,No Return
+651,359,25/12/2023,Debit Card,761,165,5,No Return
+742,360,26/12/2023,PayPal,135,130,3,No Return
+519,361,27/12/2023,Cash,670,157,2,No Return
+145,362,28/12/2023,Debit Card,635,57,8,No Return
+453,363,29/12/2023,Cash,61,171,1,No Return
+499,364,30/12/2023,Debit Card,749,88,7,No Return
+963,365,31/12/2023,Debit Card,773,4,4,No Return
+36,366,01/1/2024,Debit Card,918,44,3,No Return
+455,367,02/1/2024,PayPal,182,171,2,No Return
+600,368,03/1/2024,Cash,900,99,9,No Return
+286,369,04/1/2024,Cash,853,32,9,No Return
+807,370,05/1/2024,Credit Card,235,180,2,No Return
+505,371,06/1/2024,Debit Card,738,108,3,No Return
+856,372,07/1/2024,Cash,300,29,6,No Return
+452,373,08/1/2024,Credit Card,10,10,6,Returned
+1000,374,09/1/2024,PayPal,601,25,9,Returned
+404,375,10/1/2024,Debit Card,174,183,9,No Return
+598,376,11/1/2024,Cash,496,40,6,No Return
+708,377,12/1/2024,Cash,381,146,2,No Return
+648,378,13/1/2024,Debit Card,926,59,4,No Return
+246,379,14/1/2024,Debit Card,861,14,7,No Return
+677,380,15/1/2024,Cash,66,41,3,No Return
+425,381,16/1/2024,Debit Card,691,126,2,No Return
+239,382,17/1/2024,PayPal,402,35,7,No Return
+1,383,18/1/2024,Credit Card,404,26,5,No Return
+904,384,19/1/2024,Cash,54,37,1,No Return
+324,385,20/1/2024,Credit Card,374,41,3,No Return
+88,386,21/1/2024,Credit Card,949,150,5,No Return
+461,387,22/1/2024,PayPal,807,11,4,No Return
+790,388,23/1/2024,Debit Card,316,41,7,No Return
+16,389,24/1/2024,PayPal,106,122,9,No Return
+52,390,25/1/2024,Credit Card,342,178,1,No Return
+403,391,26/1/2024,PayPal,53,118,5,No Return
+520,392,27/1/2024,Cash,415,49,2,No Return
+867,393,28/1/2024,PayPal,642,42,2,No Return
+882,394,29/1/2024,Cash,486,11,3,No Return
+492,395,30/1/2024,Debit Card,447,61,9,Returned
+914,396,31/1/2024,Cash,86,8,6,No Return
+595,397,01/2/2024,Credit Card,704,0,6,No Return
+839,398,02/2/2024,Credit Card,997,52,1,No Return
+124,399,03/2/2024,Debit Card,229,133,5,No Return
+840,400,04/2/2024,Credit Card,184,76,7,No Return
+608,401,05/2/2024,Cash,219,48,5,No Return
+322,402,06/2/2024,PayPal,668,36,1,No Return
+317,403,07/2/2024,Credit Card,289,168,8,No Return
+516,404,08/2/2024,Credit Card,255,92,3,No Return
+20,405,09/2/2024,Cash,608,151,7,No Return
+154,406,10/2/2024,Cash,749,68,6,No Return
+172,407,11/2/2024,Debit Card,548,111,3,No Return
+387,408,12/2/2024,Debit Card,719,15,5,No Return
+97,409,13/2/2024,Cash,255,112,9,Returned
+868,410,14/2/2024,Credit Card,402,18,4,No Return
+29,411,15/2/2024,Credit Card,271,30,2,No Return
+768,412,16/2/2024,Cash,80,149,7,No Return
+563,413,17/2/2024,Credit Card,438,102,6,No Return
+983,414,18/2/2024,Credit Card,408,22,3,No Return
+559,415,19/2/2024,Debit Card,108,159,2,No Return
+972,416,20/2/2024,PayPal,558,111,3,No Return
+475,417,21/2/2024,Debit Card,113,185,1,No Return
+810,418,22/2/2024,Debit Card,692,67,8,No Return
+721,419,23/2/2024,PayPal,467,110,1,No Return
+584,420,24/2/2024,PayPal,636,156,8,No Return
+275,421,25/2/2024,Credit Card,863,16,3,No Return
+204,422,26/2/2024,PayPal,951,63,5,No Return
+758,423,27/2/2024,Credit Card,800,175,2,Returned
+809,424,28/2/2024,Debit Card,168,185,6,No Return
+26,425,29/2/2024,Credit Card,555,50,3,No Return
+696,426,01/3/2024,PayPal,774,71,5,Returned
+892,427,02/3/2024,PayPal,583,30,2,No Return
+561,428,03/3/2024,Cash,971,153,7,No Return
+864,429,04/3/2024,Credit Card,554,68,9,Returned
+31,430,05/3/2024,Credit Card,584,14,1,No Return
+860,431,06/3/2024,Credit Card,390,151,1,Returned
+824,432,07/3/2024,Cash,897,79,1,No Return
+143,433,08/3/2024,Cash,200,187,8,No Return
+101,434,09/3/2024,Debit Card,917,138,7,No Return
+294,435,10/3/2024,Credit Card,489,85,9,No Return
+330,436,11/3/2024,Cash,203,151,9,No Return
+19,437,12/3/2024,Cash,281,177,9,No Return
+552,438,13/3/2024,PayPal,344,188,1,No Return
+187,439,14/3/2024,Credit Card,550,26,6,No Return
+112,440,15/3/2024,Debit Card,948,119,2,No Return
+675,441,16/3/2024,Cash,455,57,1,No Return
+412,442,17/3/2024,Credit Card,985,114,7,No Return
+436,443,18/3/2024,Cash,210,198,2,No Return
+751,444,19/3/2024,Debit Card,966,149,9,Returned
+625,445,20/3/2024,Credit Card,420,33,7,No Return
+827,446,21/3/2024,Credit Card,895,49,3,No Return
+220,447,22/3/2024,Cash,654,85,6,No Return
+781,448,23/3/2024,Debit Card,373,164,2,No Return
+241,449,24/3/2024,Debit Card,647,16,2,No Return
+474,450,25/3/2024,Cash,838,59,5,No Return
+464,451,26/3/2024,PayPal,466,112,7,Returned
+566,452,27/3/2024,Cash,922,173,1,Returned
+913,453,28/3/2024,Credit Card,656,199,7,No Return
+55,454,29/3/2024,Credit Card,864,179,1,No Return
+815,455,30/3/2024,Debit Card,986,183,8,No Return
+277,456,31/3/2024,PayPal,186,198,9,No Return
+669,457,01/4/2024,Debit Card,53,175,3,No Return
+471,458,02/4/2024,Credit Card,607,4,8,No Return
+627,459,03/4/2024,Cash,938,12,6,No Return
+831,460,04/4/2024,Debit Card,727,169,7,No Return
+81,461,05/4/2024,Cash,234,95,3,No Return
+896,462,06/4/2024,Debit Card,369,57,4,Returned
+783,463,07/4/2024,PayPal,743,110,2,No Return
+375,464,08/4/2024,Cash,885,49,8,No Return
+953,465,09/4/2024,PayPal,451,168,8,Returned
+339,466,10/4/2024,Credit Card,608,38,8,No Return
+51,467,11/4/2024,Credit Card,329,61,1,No Return
+748,468,12/4/2024,Credit Card,263,96,4,No Return
+153,469,13/4/2024,PayPal,428,42,6,No Return
+897,470,14/4/2024,PayPal,897,149,7,No Return
+506,471,15/4/2024,Debit Card,657,145,6,No Return
+650,472,16/4/2024,Cash,44,35,6,No Return
+431,473,17/4/2024,Debit Card,441,162,7,Returned
+531,474,18/4/2024,Debit Card,564,127,6,No Return
+604,475,19/4/2024,PayPal,712,96,2,No Return
+712,476,20/4/2024,PayPal,854,99,8,No Return
+394,477,21/4/2024,PayPal,786,113,9,No Return
+626,478,22/4/2024,PayPal,80,155,8,No Return
+173,479,23/4/2024,Debit Card,868,30,1,No Return
+842,480,24/4/2024,Debit Card,378,7,2,No Return
+284,481,25/4/2024,Credit Card,860,129,5,Returned
+128,482,26/4/2024,Debit Card,470,59,4,No Return
+487,483,27/4/2024,Credit Card,257,130,3,Returned
+271,484,28/4/2024,Debit Card,441,7,2,No Return
+937,485,29/4/2024,Debit Card,64,41,6,No Return
+136,486,30/4/2024,PayPal,265,176,3,Returned
+194,487,01/5/2024,PayPal,834,13,9,No Return
+564,488,02/5/2024,PayPal,375,152,1,No Return
+924,489,03/5/2024,Credit Card,960,93,4,Returned
+738,490,04/5/2024,Debit Card,291,181,3,No Return
+235,491,05/5/2024,Cash,447,27,5,No Return
+3,492,06/5/2024,Debit Card,348,9,8,Returned
+700,493,07/5/2024,PayPal,995,60,6,No Return
+457,494,08/5/2024,Cash,548,94,2,No Return
+385,495,09/5/2024,Cash,302,12,6,No Return
+703,496,10/5/2024,PayPal,825,2,8,No Return
+501,497,11/5/2024,PayPal,846,110,8,No Return
+388,498,12/5/2024,Credit Card,976,125,4,No Return
+57,499,13/5/2024,Cash,123,121,5,No Return
+362,500,14/5/2024,PayPal,308,105,7,No Return
+667,501,15/5/2024,Cash,478,172,5,No Return
+691,502,16/5/2024,Debit Card,331,70,1,No Return
+553,503,17/5/2024,Credit Card,104,169,7,No Return
+30,504,18/5/2024,Credit Card,316,99,2,No Return
+759,505,19/5/2024,Credit Card,934,11,1,Returned
+788,506,20/5/2024,Debit Card,220,126,2,No Return
+739,507,21/5/2024,Debit Card,780,198,6,No Return
+171,508,22/5/2024,PayPal,538,181,1,No Return
+834,509,23/5/2024,Debit Card,525,58,2,No Return
+254,510,24/5/2024,Credit Card,163,151,6,No Return
+329,511,25/5/2024,PayPal,659,81,3,No Return
+814,512,26/5/2024,Debit Card,297,120,4,No Return
+701,513,27/5/2024,Cash,804,84,2,No Return
+259,514,28/5/2024,Credit Card,425,186,7,No Return
+117,515,29/5/2024,PayPal,731,84,7,No Return
+446,516,30/5/2024,PayPal,597,138,1,Returned
+513,517,31/5/2024,Debit Card,774,157,1,No Return
+420,518,01/6/2024,Cash,128,130,7,No Return
+45,519,02/6/2024,Credit Card,165,56,9,No Return
+386,520,03/6/2024,Cash,797,7,9,Returned
+935,521,04/6/2024,Debit Card,883,26,2,Returned
+367,522,05/6/2024,Credit Card,744,117,9,No Return
+956,523,06/6/2024,PayPal,673,145,9,No Return
+575,524,07/6/2024,PayPal,673,106,8,No Return
+826,525,08/6/2024,Debit Card,490,18,9,No Return
+789,526,09/6/2024,PayPal,473,54,2,No Return
+992,527,10/6/2024,Debit Card,611,122,3,No Return
+135,528,11/6/2024,PayPal,988,100,4,No Return
+542,529,12/6/2024,Debit Card,75,181,3,Returned
+615,530,13/6/2024,Cash,892,182,2,No Return
+704,531,14/6/2024,Debit Card,984,109,4,Returned
+900,532,15/6/2024,Debit Card,753,75,7,No Return
+523,533,16/6/2024,Debit Card,645,27,2,No Return
+579,534,17/6/2024,PayPal,808,87,9,Returned
+253,535,18/6/2024,Debit Card,92,72,7,No Return
+796,536,19/6/2024,PayPal,408,186,9,No Return
+233,537,20/6/2024,Cash,190,10,9,No Return
+985,538,21/6/2024,PayPal,229,,9,No Return
+718,539,22/6/2024,Debit Card,83,,8,No Return
+320,540,23/6/2024,Credit Card,626,,7,Returned
+946,541,24/6/2024,Cash,349,,7,No Return
+872,542,25/6/2024,Credit Card,740,,7,No Return
+780,543,26/6/2024,Credit Card,217,,9,No Return
+401,544,27/6/2024,PayPal,932,,5,No Return
+179,545,28/6/2024,Cash,204,,1,No Return
+945,546,29/6/2024,Credit Card,933,,8,No Return
+655,547,30/6/2024,Cash,217,,4,No Return
+414,548,01/7/2024,Cash,426,,6,No Return
+261,549,02/7/2024,Debit Card,507,115,2,No Return
+89,550,03/7/2024,Credit Card,306,163,9,No Return
+87,551,04/7/2024,Credit Card,911,26,6,No Return
+340,552,05/7/2024,Cash,913,46,8,No Return
+418,553,06/7/2024,Debit Card,708,56,5,No Return
+744,554,07/7/2024,Debit Card,542,170,3,No Return
+479,555,08/7/2024,Cash,122,181,9,No Return
+48,556,09/7/2024,Credit Card,387,102,6,No Return
+881,557,10/7/2024,PayPal,477,77,5,No Return
+86,558,11/7/2024,Cash,731,129,1,Returned
+229,559,12/7/2024,Credit Card,878,127,6,No Return
+255,560,13/7/2024,Debit Card,539,115,5,No Return
+818,561,14/7/2024,Cash,262,11,6,No Return
+349,562,15/7/2024,Cash,691,57,1,No Return
+832,563,16/7/2024,PayPal,762,44,1,No Return
+873,564,17/7/2024,Credit Card,482,21,7,Returned
+922,565,18/7/2024,PayPal,918,39,5,Returned
+215,566,19/7/2024,Credit Card,420,161,8,No Return
+186,567,20/7/2024,Debit Card,927,51,7,Returned
+869,568,21/7/2024,Cash,519,25,9,No Return
+961,569,22/7/2024,Credit Card,941,2,9,No Return
+645,570,23/7/2024,Cash,539,161,4,Returned
+871,571,24/7/2024,Debit Card,954,128,1,No Return
+110,572,25/7/2024,Debit Card,735,41,8,No Return
+996,573,26/7/2024,PayPal,582,149,3,No Return
+805,574,27/7/2024,Debit Card,272,6,8,No Return
+293,575,28/7/2024,Debit Card,412,121,1,Returned
+760,576,29/7/2024,Debit Card,442,177,8,No Return
+7,577,30/7/2024,Credit Card,823,97,6,No Return
+637,578,31/7/2024,PayPal,611,173,9,No Return
+9,579,01/8/2024,Debit Card,63,156,3,No Return
+895,580,02/8/2024,Credit Card,982,42,8,No Return
+988,581,03/8/2024,Debit Card,469,123,5,No Return
+411,582,04/8/2024,Cash,410,114,2,No Return
+391,583,05/8/2024,Cash,183,175,7,No Return
+596,584,06/8/2024,PayPal,467,81,3,No Return
+314,585,07/8/2024,Cash,802,198,8,No Return
+933,586,08/8/2024,PayPal,305,175,9,No Return
+382,587,09/8/2024,Credit Card,683,172,6,Returned
+142,588,10/8/2024,PayPal,402,167,1,Returned
+469,589,11/8/2024,Cash,705,60,8,No Return
+477,590,12/8/2024,Debit Card,393,94,7,No Return
+264,591,13/8/2024,PayPal,286,49,7,No Return
+813,592,14/8/2024,Credit Card,93,10,2,No Return
+837,593,15/8/2024,Cash,973,124,7,No Return
+46,594,16/8/2024,Debit Card,332,50,8,No Return
+719,595,17/8/2024,Debit Card,966,60,5,No Return
+42,596,18/8/2024,PayPal,869,127,7,No Return
+439,597,19/8/2024,Credit Card,401,125,7,Returned
+91,598,20/8/2024,Credit Card,330,46,6,Returned
+447,599,21/8/2024,Credit Card,540,190,9,No Return
+38,600,22/8/2024,PayPal,772,93,9,No Return
+140,601,23/8/2024,Credit Card,531,186,7,No Return
+79,602,24/8/2024,PayPal,172,85,2,No Return
+526,603,25/8/2024,PayPal,344,98,2,No Return
+83,604,26/8/2024,Cash,312,65,2,No Return
+413,605,27/8/2024,Cash,635,91,1,No Return
+152,606,28/8/2024,Credit Card,295,68,4,No Return
+182,607,29/8/2024,Debit Card,615,145,3,No Return
+183,608,30/8/2024,PayPal,835,127,3,No Return
+630,609,31/8/2024,PayPal,326,38,6,No Return
+350,610,01/9/2024,Cash,785,171,6,No Return
+66,611,02/9/2024,Debit Card,761,178,8,No Return
+741,612,03/9/2024,Debit Card,184,32,4,No Return
+126,613,04/9/2024,Credit Card,340,42,8,No Return
+257,614,05/9/2024,Credit Card,853,113,6,No Return
+899,615,06/9/2024,Debit Card,670,60,2,No Return
+315,616,07/9/2024,PayPal,707,72,5,No Return
+908,617,08/9/2024,Cash,296,138,5,No Return
+613,618,09/9/2024,Credit Card,57,172,9,No Return
+852,619,10/9/2024,Cash,290,96,8,No Return
+918,620,11/9/2024,Credit Card,256,156,9,No Return
+103,621,12/9/2024,Cash,673,149,1,No Return
+660,622,13/9/2024,Credit Card,91,154,5,No Return
+41,623,14/9/2024,Credit Card,697,16,7,No Return
+163,624,15/9/2024,PayPal,920,35,1,No Return
+345,625,16/9/2024,Cash,606,94,2,No Return
+207,626,17/9/2024,Credit Card,853,96,8,No Return
+565,627,18/9/2024,Credit Card,169,68,2,No Return
+649,628,19/9/2024,Credit Card,719,29,8,No Return
+578,629,20/9/2024,PayPal,266,161,2,No Return
+846,630,21/9/2024,Credit Card,260,144,5,No Return
+911,631,22/9/2024,PayPal,631,69,1,Returned
+113,632,23/9/2024,Credit Card,955,95,7,No Return
+981,633,24/9/2024,Credit Card,776,136,4,No Return
+511,634,25/9/2024,Cash,712,62,5,No Return
+437,635,26/9/2024,PayPal,395,81,1,No Return
+485,636,27/9/2024,PayPal,415,107,6,No Return
+185,637,28/9/2024,PayPal,146,196,9,No Return
+158,638,29/9/2024,Debit Card,801,86,2,No Return
+374,639,30/9/2024,Debit Card,766,78,6,No Return
+503,640,01/10/2024,Credit Card,436,9,8,Returned
+618,641,02/10/2024,Credit Card,205,83,9,No Return
+302,642,03/10/2024,Debit Card,74,81,3,No Return
+489,643,04/10/2024,Credit Card,129,90,3,No Return
+772,644,05/10/2024,Debit Card,237,110,8,No Return
+300,645,06/10/2024,PayPal,849,176,2,No Return
+547,646,07/10/2024,Debit Card,449,189,3,No Return
+841,647,08/10/2024,PayPal,121,42,8,No Return
+797,648,09/10/2024,PayPal,731,63,2,No Return
+876,649,10/10/2024,Debit Card,189,5,3,No Return
+730,650,11/10/2024,Debit Card,637,118,8,No Return
+65,651,12/10/2024,Credit Card,519,191,9,No Return
+782,652,13/10/2024,Debit Card,348,169,7,No Return
+823,653,14/10/2024,Debit Card,116,157,8,No Return
+205,654,15/10/2024,Debit Card,250,145,2,No Return
+940,655,16/10/2024,Credit Card,321,92,8,No Return
+63,656,17/10/2024,PayPal,136,60,9,No Return
+804,657,18/10/2024,PayPal,266,92,4,No Return
+454,658,19/10/2024,Credit Card,688,35,9,No Return
+298,659,20/10/2024,PayPal,284,125,1,No Return
+399,660,21/10/2024,Credit Card,690,63,1,Returned
+817,661,22/10/2024,Cash,376,34,8,Returned
+164,662,23/10/2024,Credit Card,872,199,2,No Return
+854,663,24/10/2024,Debit Card,188,44,1,No Return
+80,664,25/10/2024,Debit Card,941,141,1,Returned
+481,665,26/10/2024,PayPal,612,51,5,No Return
+634,666,27/10/2024,Cash,36,125,4,No Return
+594,667,28/10/2024,Debit Card,122,138,8,No Return
+836,668,29/10/2024,Cash,725,143,9,No Return
+332,669,30/10/2024,Cash,489,6,1,No Return
+916,670,31/10/2024,PayPal,356,119,6,No Return
+218,671,01/11/2024,Credit Card,204,133,6,Returned
+256,672,02/11/2024,PayPal,946,91,5,No Return
+546,673,03/11/2024,PayPal,530,197,2,Returned
+524,674,04/11/2024,Cash,25,193,3,Returned
+942,675,05/11/2024,PayPal,172,151,4,No Return
+114,676,06/11/2024,Credit Card,121,103,4,No Return
+2,677,07/11/2024,Cash,490,54,5,No Return
+325,678,08/11/2024,Cash,256,94,9,No Return
+285,679,09/11/2024,Debit Card,192,69,3,No Return
+853,680,10/11/2024,Cash,136,43,4,No Return
+549,681,11/11/2024,Debit Card,755,107,7,Returned
+794,682,12/11/2024,PayPal,806,153,9,No Return
+693,683,13/11/2024,Cash,795,183,3,No Return
+755,684,14/11/2024,Credit Card,952,176,6,No Return
+633,685,15/11/2024,Credit Card,498,135,1,No Return
+880,686,16/11/2024,Credit Card,548,14,6,No Return
+132,687,17/11/2024,Cash,63,5,1,No Return
+752,688,18/11/2024,PayPal,221,125,1,No Return
+296,689,19/11/2024,Credit Card,578,8,8,No Return
+875,690,20/11/2024,Debit Card,416,197,8,No Return
+116,691,21/11/2024,Credit Card,996,56,8,No Return
+222,692,22/11/2024,Cash,219,102,9,No Return
+227,693,23/11/2024,Cash,77,195,1,No Return
+644,694,24/11/2024,Cash,665,19,9,No Return
+5,695,25/11/2024,PayPal,272,130,9,No Return
+311,696,26/11/2024,Cash,489,43,1,No Return
+962,697,27/11/2024,Credit Card,900,63,9,No Return
+342,698,28/11/2024,Debit Card,730,71,8,No Return
+509,699,29/11/2024,Credit Card,35,21,3,No Return
+799,700,30/11/2024,Debit Card,859,10,8,No Return
+778,701,01/12/2024,Credit Card,506,33,1,No Return
+705,702,02/12/2024,Credit Card,883,151,8,No Return
+662,703,03/12/2024,PayPal,949,59,1,No Return
+198,704,04/12/2024,Credit Card,754,191,5,No Return
+156,705,05/12/2024,PayPal,614,28,5,Returned
+771,706,06/12/2024,Credit Card,590,134,8,No Return
+538,707,07/12/2024,PayPal,700,92,9,No Return
+917,708,08/12/2024,Credit Card,384,118,2,No Return
+210,709,09/12/2024,Cash,555,164,3,No Return
+242,710,10/12/2024,PayPal,692,144,8,No Return
+43,711,11/12/2024,PayPal,654,169,9,Returned
+353,712,12/12/2024,Cash,637,49,3,No Return
+812,713,13/12/2024,Credit Card,36,5,9,No Return
+267,714,14/12/2024,Debit Card,378,137,2,No Return
+147,715,15/12/2024,Debit Card,717,21,7,No Return
+442,716,16/12/2024,Debit Card,97,20,7,No Return
+232,717,17/12/2024,Credit Card,220,104,3,No Return
+504,718,18/12/2024,Debit Card,267,21,5,No Return
+685,719,19/12/2024,Cash,877,162,8,No Return
+338,720,20/12/2024,PayPal,745,68,5,No Return
+632,721,21/12/2024,Cash,604,157,8,No Return
+979,722,22/12/2024,PayPal,659,93,9,No Return
+351,723,23/12/2024,Credit Card,709,47,1,No Return
+574,724,24/12/2024,Credit Card,517,184,6,No Return
+890,725,25/12/2024,PayPal,213,36,4,No Return
+652,726,26/12/2024,PayPal,631,189,8,No Return
+169,727,27/12/2024,Cash,854,89,1,No Return
+601,728,28/12/2024,Cash,590,176,3,No Return
+93,729,29/12/2024,PayPal,814,97,2,No Return
+334,730,30/12/2024,Credit Card,262,36,2,Returned
+428,731,31/12/2024,Cash,391,71,6,No Return
+984,732,01/1/2025,Cash,820,147,7,Returned
+138,733,02/1/2025,Cash,262,130,9,No Return
+851,734,03/1/2025,PayPal,830,197,5,No Return
+928,735,04/1/2025,Cash,907,58,6,Returned
+62,736,05/1/2025,Cash,247,89,5,Returned
+369,737,06/1/2025,PayPal,978,0,4,No Return
+326,738,07/1/2025,Cash,615,78,8,No Return
+155,739,08/1/2025,Cash,34,47,6,No Return
+567,740,09/1/2025,Cash,804,72,6,No Return
+684,741,10/1/2025,Debit Card,554,34,9,No Return
+157,742,11/1/2025,Cash,801,44,3,Returned
+986,743,12/1/2025,Cash,463,180,2,No Return
+795,744,13/1/2025,Debit Card,739,137,9,Returned
+590,745,14/1/2025,Cash,491,1850,3,No Return
+343,746,15/1/2025,Cash,261,1340,5,No Return
+440,747,16/1/2025,Credit Card,366,1333,8,Returned
+429,748,17/1/2025,Debit Card,103,88,2,Returned
+958,749,18/1/2025,Cash,357,56,2,No Return
+628,750,19/1/2025,PayPal,558,53,6,No Return

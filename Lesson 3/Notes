@@ -1,4 +1,4 @@
-df.info() # df.info(number_of_row) default 5
+df.info() # df.info(number_of_row u want to see) default 5
 df.tail()
 
 df.dtypes
@@ -45,7 +45,7 @@ Data Transformation:
         - formatting
         - special character
         - data type esp float/int adn date formating
-        - business hours
+        - logic based on what data is about
 
     Converting data types
     convert data types = df['skldnf'].astype(int/float/string)
@@ -90,40 +90,36 @@ Data Joining
             | 4  | 40  | Marketing |
 
         - inner - only keeps rows with matches in both tables
-        | ID | Name  | City   | Age | Dept    |
-        |----|-------|--------|-----|---------|
-        | 2  | Bala  | Penang | 25  | Finance |
-        | 3  | Chong | Johor  | 30  | IT      |
+            | ID | Name  | City   | Age | Dept    |
+            |----|-------|--------|-----|---------|
+            | 2  | Bala  | Penang | 25  | Finance |
+            | 3  | Chong | Johor  | 30  | IT      |
 
         - outer - keeps all rows from both tables
-        | ID | Name  | City   | Age  | Dept      |
-        |----|-------|--------|------|-----------|
-        | 1  | Ali   | KL     | NULL | NULL      |
-        | 2  | Bala  | Penang | 25   | Finance   |
-        | 3  | Chong | Johor  | 30   | IT        |
-        | 4  | NULL  | NULL   | 40   | Marketing |
+            | ID | Name  | City   | Age  | Dept      |
+            |----|-------|--------|------|-----------|
+            | 1  | Ali   | KL     | NULL | NULL      |
+            | 2  | Bala  | Penang | 25   | Finance   |
+            | 3  | Chong | Johor  | 30   | IT        |
+            | 4  | NULL  | NULL   | 40   | Marketing |
 
 
         - left - keeps all rows from the left table
-        | ID | Name  | City   | Age  | Dept      |
-        |----|-------|--------|------|-----------|
-        | 1  | Ali   | KL     | NULL | NULL      |
-        | 2  | Bala  | Penang | 25   | Finance   |
-        | 3  | Chong | Johor  | 30   | IT        |
+            | ID | Name  | City   | Age  | Dept      |
+            |----|-------|--------|------|-----------|
+            | 1  | Ali   | KL     | NULL | NULL      |
+            | 2  | Bala  | Penang | 25   | Finance   |
+            | 3  | Chong | Johor  | 30   | IT        |
 
         - right - keeps all rows from the right table
-        | ID | Name  | City   | Age | Dept      |
-        |----|-------|--------|-----|-----------|
-        | 2  | Bala  | Penang | 25  | Finance   |
-        | 3  | Chong | Johor  | 30  | IT        |
-        | 4  | NULL  | NULL   | 40  | Marketing |
-
+            | ID | Name  | City   | Age | Dept      |
+            |----|-------|--------|-----|-----------|
+            | 2  | Bala  | Penang | 25  | Finance   |
+            | 3  | Chong | Johor  | 30  | IT        |
+            | 4  | NULL  | NULL   | 40  | Marketing |
 
     grouping and aggregating data with .groupby()
     - avg_spending_by_gender = df.groupby("Gender")["Price"].mean().reset_index()
     # sometime use sum, mean or count
 
     - popular_food_by_occupation = df.groupby(["Occupation","Food_Item"]).size().reset_index(name="Count")
-
-
-
