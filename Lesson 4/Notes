@@ -1,0 +1,111 @@
+4A
+Scoping ur data analysis project
+- What are the key objectives your analysis is trying to address
+- Which dataset and specific column will help u address your objectives
+- What pattern or relationship will u explore in the data
+
+Define ur big question
+- What decision could this analysis help inform?
+- What problem are u trying to understand better?
+- What outcome or insight would be the most useful for a business/ user
+
+Identify ur dataset and key columns
+- Which dataset contains the info I need to answer my objective
+- Which column are most important
+- What i can safely ignore
+
+Identify Patterns or Relationship to Explore
+- What patterns and trend might show up in the data
+- Are there relationship between two or more columns worth exploring
+- How might different groups or conditions behave differently
+
+4B - EDA
+- broad descriptive analysis
+- apply filter to focus analysis on the relevant data
+
+Summarize Numerical Variables
+# get summary numerical
+numerical_summary = ((df.drop(columns=["Customer_ID","Category_Encoded"]) # drop helper column no need for summary
+                  .select_dtypes(include='number')) # find numerical column only
+                     .describe())
+
+uses of count - spot missing data???
+mean - quick summarize on how frequent is data
+median - best to use when had outlier
+std - see data consistency
+
+4C - Matplotlib and Seaborn
+Chart use Matplotlib
+Cleaner visual use Seaborn
+
+Data Visualization
+- visual trend: line plot
+- visual compare: bar chart, groupped barchart
+- visual distribute: histogram
+- visual composition: pie chart
+
+Line Plot : https://www.geeksforgeeks.org/python/line-chart-in-matplotlib-python/
+- show trend over time, suitable use for tracking changes in data that
+  help to see growth, decline and seasonal data
+- eg: Line Chart, Area Chart, Time Series Plot
+
+code:
+# group data by month to calc total visit
+monthly_avg_visits = df.groupby('Month').size().reset_index(name="Visit_Count")
+
+import matplotlib.pyplot as plt
+
+# plot trend using a line chart
+plt.figure(figsize=(10,5))
+plt.plot(
+    monthly_avg_visits['Month'],
+    monthly_avg_visits['Visit_Count'],
+    marker='x',
+    linestyle='-',
+    color='red'
+)
+# for color can use only red, green, blue
+# existed linestyle  '-', '--', '-.', ':', 'None', ' ', '', 'solid', 'dashed', 'dashdot', 'dotted'
+# existed marker, o and x
+
+plt.xlabel("Month") # x label
+plt.ylabel("Total Visits") # y label
+plt.title("Total Visits by Month") # chart title
+plt.xticks(rotation=45) # rotation label x
+plt.grid(False)
+plt.tight_layout()
+plt.show()
+
+Bar Chart: https://www.geeksforgeeks.org/pandas/bar-plot-in-matplotlib/
+for visualize comparison
+
+code:
+# group day of week to calc everage price
+df_grouped = df.groupby('Day_of_Week')['Price'].mean().reset_index()
+
+# sort result in desc order
+df_grouped_sorted = df_grouped.sort_values(by='Price', ascending=False)
+
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+plt.figure(figsize=(8, 5))
+
+sns.barplot(
+    x='Day_of_Week',
+    y='Price',
+    data=df_grouped_sorted,
+    hue="Day_of_Week",
+    palette='Set1',
+    legend=True
+)
+
+# https://seaborn.pydata.org/tutorial/color_palettes.html
+
+plt.xlabel("Day_of_Week")
+plt.ylabel("Average Price")
+plt.title("Average Total Sales by Day of the Week")
+plt.xticks(rotation=45)
+plt.tight_layout()
+
+plt.show()
