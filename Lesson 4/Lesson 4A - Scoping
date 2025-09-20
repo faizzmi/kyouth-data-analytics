@@ -1,0 +1,28 @@
+Problem Statement:
+
+Hana Mohana, Owner of Suria Restaurant
+We've seen some patterns in what sells depending on the day or the weather,     --point 1
+but it's hard to explain why.
+We're also not sure who our loyal customers are or what keeps them coming back.  --point 2
+
+We want to use data to uncover those insights and make better decisions about
+our menu and how we serve our customers, so we can grow the business in a more
+focused and informed way.
+--------------------------------------------------------------------------------------
+
+# 1:- Define ur big question
+Answer:
+- pattern based on time, day, temperature and weather
+- what do customers prefer when choosing food based on demographic
+
+# 2:- Identify ur dataset and key columns
+Answer - Dataset and Key Column:-
+ Restaurant_Transactions_Dataset: Customer_ID,Food_Item,Category,Date_of_Visit,Time,Weather,Price,Weekend,Public_Holiday
+ customer_demographics: Customer_ID,Gender,Age,Occupation,Marital_Status
+
+# 3:- Identify Patterns or Relationship to Explore
+Answer:
+- what type of food popular on sunny day and rainny day
+- do different age prefer different food categories
+- does different occupation spend on specific item
+- does marital status spend more item
