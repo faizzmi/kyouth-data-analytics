@@ -1,0 +1,747 @@
+id,age,gender,income,education,region,loyalty_status,purchase_frequency,purchase_amount,product_category,promotion_usage,satisfaction_score,education_original,transaction_id,transaction_date,payment_method,total_spent,discount_applied,items_purchased,return_status,score_rank
+1,27,Male,40682,Bachelor,East,Gold,frequent,18249,Books,0,6.0,Bachelor,383,18/1/2024,Credit Card,404.0,26.0,5,No Return,High
+2,29,Male,15317,Masters,West,Regular,rare,4557,Clothing,1,6.0,Masters,677,07/11/2024,Cash,490.0,54.0,5,No Return,High
+3,37,Male,38849,Bachelor,West,Silver,rare,11822,Clothing,0,6.0,Bachelor,492,06/5/2024,Debit Card,348.0,9.0,8,Returned,High
+5,31,Female,46952,College,North,Regular,occasional,19685,Clothing,1,5.0,College,695,25/11/2024,PayPal,272.0,130.0,9,No Return,Neutral
+7,32,Female,8265,Bachelor,South,Silver,frequent,3293,Clothing,0,7.0,Bachelor,577,30/7/2024,Credit Card,823.0,97.0,6,No Return,High
+8,24,Female,47773,HighSchool,North,Regular,rare,21794,Books,0,5.0,HighSchool,53,22/2/2023,Debit Card,290.0,70.0,1,No Return,Neutral
+9,27,Male,19154,College,East,Regular,occasional,5819,Clothing,0,5.0,College,579,01/8/2024,Debit Card,63.0,156.0,3,No Return,Neutral
+11,35,Male,43896,HighSchool,South,Regular,rare,16158,Home,1,6.0,HighSchool,295,22/10/2023,Cash,427.0,69.0,6,No Return,High
+12,32,Female,40044,Bachelor,North,Silver,rare,13608,Electronics,0,5.0,Bachelor,133,13/5/2023,PayPal,441.0,97.0,7,No Return,Neutral
+13,32,Male,6735,College,East,Silver,occasional,2450,Clothing,1,5.0,College,109,19/4/2023,Cash,888.0,149.0,2,No Return,Neutral
+14,30,Female,19034,Bachelor,East,Regular,occasional,5579,Books,1,5.0,Bachelor,99,09/4/2023,Cash,441.0,123.0,6,No Return,Neutral
+15,28,Male,35748,Bachelor,North,Silver,rare,12901,Books,1,3.0,Bachelor,83,24/3/2023,Cash,845.0,48.0,9,No Return,Low
+16,38,Female,26282,College,West,Silver,rare,9644,Clothing,0,7.0,College,389,24/1/2024,PayPal,106.0,122.0,9,No Return,High
+18,21,Female,20163,College,West,Regular,rare,7612,Food,0,3.0,College,188,07/7/2023,Cash,110.0,190.0,2,No Return,Low
+19,33,Female,10660,Masters,West,Regular,rare,3129,Clothing,0,6.0,,437,12/3/2024,Cash,281.0,177.0,9,No Return,High
+20,28,Male,40725,Bachelor,East,Regular,rare,12764,Electronics,1,6.0,,405,09/2/2024,Cash,608.0,151.0,7,No Return,High
+22,29,Male,37894,College,West,Silver,occasional,12838,Clothing,0,5.0,College,191,10/7/2023,Credit Card,308.0,153.0,4,No Return,Neutral
+24,27,Female,36226,College,North,Regular,frequent,12633,Electronics,1,,College,92,02/4/2023,Cash,11.0,37.0,9,No Return,Neutral
+25,27,Male,40646,Bachelor,West,Gold,rare,11869,Food,0,5.0,Bachelor,11,11/1/2023,Credit Card,24.0,185.0,4,No Return,Neutral
+26,22,Female,7915,College,West,Silver,frequent,2188,Electronics,0,6.0,College,425,29/2/2024,Credit Card,555.0,50.0,3,No Return,High
+27,34,Male,39287,Masters,North,Regular,occasional,11944,Food,0,6.0,Masters,318,14/11/2023,Credit Card,906.0,183.0,7,No Return,High
+28,31,Female,42196,College,West,Regular,occasional,12137,Clothing,1,6.0,College,195,14/7/2023,Cash,14.0,134.0,3,No Return,High
+29,25,Female,38932,Bachelor,West,Silver,frequent,15844,Electronics,0,5.0,Bachelor,411,15/2/2024,Credit Card,271.0,30.0,2,No Return,Neutral
+30,36,Male,42955,Bachelor,East,Regular,frequent,15289,Electronics,0,4.0,Bachelor,504,18/5/2024,Credit Card,316.0,99.0,2,No Return,Low
+31,32,Female,6952,Bachelor,West,Regular,occasional,2080,Food,1,6.0,Bachelor,430,05/3/2024,Credit Card,584.0,14.0,1,No Return,High
+32,29,Male,26915,Bachelor,South,Regular,rare,11833,Clothing,1,4.0,Bachelor,148,28/5/2023,Cash,537.0,13.0,2,No Return,Low
+34,34,Female,13128,College,East,Gold,rare,4475,Clothing,0,6.0,College,34,03/2/2023,PayPal,560.0,117.0,8,No Return,High
+35,34,Male,13820,College,East,Regular,rare,5888,Electronics,0,6.0,College,39,08/2/2023,Debit Card,789.0,167.0,1,No Return,High
+36,33,Male,43701,College,North,Regular,rare,14083,Electronics,0,5.0,College,366,01/1/2024,Debit Card,918.0,44.0,3,No Return,Neutral
+38,30,Male,42930,Masters,East,Regular,rare,17967,Health,1,,Masters,600,22/8/2024,PayPal,772.0,93.0,9,No Return,Neutral
+40,28,Female,46720,HighSchool,East,Silver,rare,17595,Electronics,1,6.0,HighSchool,267,24/9/2023,Cash,70.0,190.0,2,No Return,High
+41,27,Male,41298,Bachelor,West,Gold,rare,12690,Electronics,0,5.0,Bachelor,623,14/9/2024,Credit Card,697.0,16.0,7,No Return,Neutral
+42,29,Female,5513,Bachelor,East,Regular,occasional,1693,Electronics,1,5.0,Bachelor,596,18/8/2024,PayPal,869.0,127.0,7,No Return,Neutral
+43,24,Male,13482,Bachelor,West,Regular,rare,4842,Clothing,1,5.0,Bachelor,711,11/12/2024,PayPal,654.0,169.0,9,Returned,Neutral
+45,35,Female,24758,Bachelor,East,Regular,frequent,11293,Books,0,6.0,Bachelor,519,02/6/2024,Credit Card,165.0,56.0,9,No Return,High
+46,25,Male,45527,Bachelor,West,Gold,frequent,16596,Clothing,0,6.0,Bachelor,594,16/8/2024,Debit Card,332.0,50.0,8,No Return,High
+47,28,Male,6755,College,South,Regular,occasional,2394,Electronics,0,6.0,College,234,22/8/2023,Credit Card,647.0,149.0,1,No Return,High
+48,28,Male,45358,College,North,Regular,occasional,16856,Clothing,0,6.0,College,556,09/7/2024,Credit Card,387.0,102.0,6,No Return,High
+49,33,Female,12972,College,East,Silver,rare,5197,Food,0,5.0,College,165,14/6/2023,Debit Card,215.0,131.0,1,No Return,Neutral
+50,30,Male,31837,Bachelor,West,Silver,occasional,12967,Electronics,0,6.0,Bachelor,29,29/1/2023,Cash,930.0,181.0,1,No Return,High
+51,31,Female,29373,College,South,Regular,frequent,12114,Electronics,0,5.0,College,467,11/4/2024,Credit Card,329.0,61.0,1,No Return,Neutral
+52,30,Male,28752,College,North,Silver,rare,8649,Clothing,1,4.0,College,390,25/1/2024,Credit Card,342.0,178.0,1,No Return,Low
+53,30,Male,8328,HighSchool,West,Silver,rare,3079,Health,0,5.0,HighSchool,246,03/9/2023,Credit Card,800.0,64.0,6,Returned,Neutral
+54,36,Female,22078,College,East,Regular,occasional,7587,Food,0,6.0,College,324,20/11/2023,Cash,895.0,123.0,4,No Return,High
+55,29,Female,15865,College,West,Regular,occasional,6884,Clothing,0,4.0,College,454,29/3/2024,Credit Card,864.0,179.0,1,No Return,Low
+56,37,Female,6818,College,East,Regular,occasional,1987,Electronics,0,7.0,College,4,04/1/2023,PayPal,885.0,86.0,3,No Return,High
+57,23,Male,44939,Masters,East,Gold,occasional,18416,Electronics,1,5.0,Masters,499,13/5/2024,Cash,123.0,121.0,5,No Return,Neutral
+58,33,Male,47716,College,West,Regular,occasional,20515,Electronics,0,2.0,College,323,19/11/2023,PayPal,880.0,27.0,1,No Return,Low
+61,32,Male,8679,HighSchool,East,Silver,rare,2908,Electronics,0,4.0,HighSchool,19,19/1/2023,Debit Card,382.0,179.0,8,No Return,Low
+62,28,Female,23397,HighSchool,North,Regular,occasional,8066,Books,0,3.0,HighSchool,736,05/1/2025,Cash,247.0,89.0,5,Returned,Low
+63,29,Female,34677,Masters,North,Gold,occasional,13341,Books,1,6.0,Masters,656,17/10/2024,PayPal,136.0,60.0,9,No Return,High
+64,25,Female,19249,HighSchool,West,Silver,rare,6020,Home,0,5.0,HighSchool,86,27/3/2023,Cash,845.0,147.0,4,No Return,Neutral
+65,25,Female,7346,College,West,Silver,rare,2301,Food,1,5.0,College,651,12/10/2024,Credit Card,519.0,191.0,9,No Return,Neutral
+66,31,Female,9888,Bachelor,North,Gold,occasional,3708,Electronics,0,4.0,Bachelor,611,02/9/2024,Debit Card,761.0,178.0,8,No Return,Low
+67,32,Female,33549,College,East,Regular,occasional,12038,Clothing,1,6.0,College,59,28/2/2023,Cash,677.0,71.0,6,No Return,High
+69,34,Male,43035,Bachelor,East,Regular,frequent,13002,Books,0,5.0,Bachelor,322,18/11/2023,Cash,864.0,37.0,4,No Return,Neutral
+70,39,Female,17226,College,West,Silver,occasional,6617,Books,1,4.0,College,40,09/2/2023,PayPal,290.0,125.0,8,Returned,Low
+71,28,Male,40025,College,West,Silver,occasional,8973,Food,1,4.0,College,95,05/4/2023,PayPal,975.0,42.0,5,No Return,Low
+72,20,Female,49144,Bachelor,East,Silver,rare,20296,Health,0,3.0,Bachelor,264,21/9/2023,Cash,156.0,192.0,2,No Return,Low
+76,35,Female,8133,Masters,East,Regular,rare,2939,Electronics,0,5.0,Masters,334,30/11/2023,Credit Card,612.0,145.0,7,Returned,Neutral
+78,25,Female,13114,Bachelor,West,Silver,rare,2916,Clothing,0,5.0,Bachelor,301,28/10/2023,Cash,946.0,80.0,9,No Return,Neutral
+79,31,Female,29452,College,West,Regular,rare,9814,Home,0,5.0,College,602,24/8/2024,PayPal,172.0,85.0,2,No Return,Neutral
+80,29,Female,32324,Bachelor,North,Regular,occasional,9535,Food,1,4.0,Bachelor,664,25/10/2024,Debit Card,941.0,141.0,1,Returned,Low
+81,30,Female,24706,HighSchool,East,Regular,rare,9536,Home,1,3.0,HighSchool,461,05/4/2024,Cash,234.0,95.0,3,No Return,Low
+83,28,Female,12977,HighSchool,South,Regular,rare,3542,Electronics,0,,HighSchool,604,26/8/2024,Cash,312.0,65.0,2,No Return,Neutral
+84,33,Female,43758,HighSchool,South,Silver,occasional,18843,Clothing,0,5.0,HighSchool,232,20/8/2023,Cash,150.0,90.0,1,No Return,Neutral
+85,29,Female,49741,Masters,West,Regular,occasional,12915,Clothing,0,5.0,Masters,150,30/5/2023,PayPal,34.0,29.0,6,No Return,Neutral
+86,31,Male,6994,Bachelor,East,Gold,rare,2101,Clothing,0,7.0,Bachelor,558,11/7/2024,Cash,731.0,129.0,1,Returned,High
+87,35,Female,14104,HighSchool,North,Silver,rare,5398,Electronics,1,5.0,HighSchool,551,04/7/2024,Credit Card,911.0,26.0,6,No Return,Neutral
+88,32,Male,32621,College,West,Silver,occasional,9408,Health,1,4.0,College,386,21/1/2024,Credit Card,949.0,150.0,5,No Return,Low
+89,29,Female,40520,College,West,Silver,rare,13186,Clothing,0,3.0,College,550,03/7/2024,Credit Card,306.0,163.0,9,No Return,Low
+91,34,Female,19281,College,North,Regular,rare,6960,Food,0,7.0,College,598,20/8/2024,Credit Card,330.0,46.0,6,Returned,High
+93,31,Female,18963,College,South,Silver,rare,6759,Electronics,1,6.0,College,729,29/12/2024,PayPal,814.0,97.0,2,No Return,High
+94,27,Female,25836,College,East,Gold,rare,9433,Electronics,0,6.0,College,242,30/8/2023,PayPal,94.0,97.0,6,No Return,High
+95,36,Female,6161,Bachelor,West,Regular,occasional,2115,Electronics,0,6.0,Bachelor,68,09/3/2023,PayPal,794.0,126.0,9,No Return,High
+96,27,Female,9697,Masters,West,Silver,frequent,2441,Electronics,0,6.0,Masters,212,31/7/2023,PayPal,334.0,100.0,3,No Return,High
+97,40,Male,35606,Bachelor,South,Gold,rare,10354,Food,0,6.0,Bachelor,409,13/2/2024,Cash,255.0,112.0,9,Returned,High
+98,37,Male,6856,Bachelor,South,Silver,occasional,2387,Clothing,0,6.0,Bachelor,73,14/3/2023,PayPal,,169.0,1,No Return,High
+99,29,Male,5135,Bachelor,East,Regular,rare,1676,Clothing,0,4.0,Bachelor,38,07/2/2023,Cash,85.0,20.0,1,No Return,Low
+101,27,Male,29170,College,North,Silver,occasional,10705,Books,0,7.0,College,434,09/3/2024,Debit Card,917.0,138.0,7,No Return,High
+103,29,Female,14391,Bachelor,West,Regular,rare,5272,Clothing,0,6.0,Bachelor,621,12/9/2024,Cash,673.0,149.0,1,No Return,High
+105,26,Male,27404,Bachelor,North,Regular,occasional,10044,Health,1,5.0,Bachelor,226,14/8/2023,Credit Card,639.0,197.0,3,No Return,Neutral
+106,30,Male,6752,College,South,Regular,occasional,1984,Health,0,4.0,College,221,09/8/2023,Credit Card,564.0,57.0,7,No Return,Low
+107,26,Female,7829,Bachelor,East,Regular,occasional,3001,Books,0,5.0,Bachelor,189,08/7/2023,Debit Card,187.0,81.0,2,No Return,Neutral
+108,23,Male,38461,HighSchool,North,Regular,rare,11216,Food,0,3.0,HighSchool,127,07/5/2023,Debit Card,591.0,158.0,3,No Return,Low
+110,34,Male,46718,College,North,Regular,rare,15534,Books,0,5.0,College,572,25/7/2024,Debit Card,735.0,41.0,8,No Return,Neutral
+117,30,Female,25071,Masters,West,Regular,occasional,9083,Electronics,1,5.0,Masters,515,29/5/2024,PayPal,731.0,84.0,7,No Return,Neutral
+118,27,Female,22192,Bachelor,South,Silver,frequent,10879,Electronics,1,5.0,Bachelor,91,01/4/2023,Debit Card,568.0,183.0,4,No Return,Neutral
+119,26,Male,13379,Bachelor,North,Regular,rare,4327,Books,0,4.0,Bachelor,270,27/9/2023,Cash,974.0,111.0,4,No Return,Low
+123,28,Female,36299,HighSchool,East,Silver,frequent,10395,Health,0,5.0,HighSchool,284,11/10/2023,Debit Card,519.0,176.0,7,No Return,Neutral
+124,29,Female,6872,College,North,Regular,occasional,1888,Books,1,4.0,College,399,03/2/2024,Debit Card,229.0,133.0,5,No Return,Low
+125,38,Female,46609,Bachelor,East,Regular,frequent,20447,Electronics,0,5.0,Bachelor,43,12/2/2023,Cash,279.0,162.0,6,No Return,Neutral
+126,27,Female,25134,HighSchool,North,Regular,occasional,7882,Clothing,0,4.0,HighSchool,613,04/9/2024,Credit Card,340.0,42.0,8,No Return,Low
+127,31,Male,43862,College,East,Regular,rare,17394,Clothing,0,7.0,College,335,01/12/2023,Cash,62.0,86.0,9,No Return,High
+128,30,Male,31711,Bachelor,North,Silver,frequent,13669,Home,0,6.0,Bachelor,482,26/4/2024,Debit Card,470.0,59.0,4,No Return,High
+129,26,Female,13509,Masters,North,Regular,rare,3227,Clothing,1,4.0,Masters,17,17/1/2023,Debit Card,,40.0,7,No Return,Low
+130,30,Male,28429,College,North,Regular,occasional,9690,Books,0,7.0,College,153,02/6/2023,Cash,374.0,122.0,1,No Return,High
+131,36,Male,17591,HighSchool,West,Silver,rare,7785,Electronics,0,6.0,HighSchool,272,29/9/2023,Cash,615.0,113.0,9,Returned,High
+132,32,Female,37908,Bachelor,West,Regular,rare,11395,Health,1,5.0,Bachelor,687,17/11/2024,Cash,63.0,5.0,1,No Return,Neutral
+135,21,Male,38467,College,East,Regular,frequent,11408,Electronics,1,4.0,College,528,11/6/2024,PayPal,988.0,100.0,4,No Return,Low
+136,35,Male,22988,Bachelor,East,Regular,occasional,9936,Books,0,6.0,Bachelor,486,30/4/2024,PayPal,265.0,176.0,3,Returned,High
+138,33,Female,31265,College,East,Regular,rare,10766,Beauty,0,4.0,College,733,02/1/2025,Cash,262.0,130.0,9,No Return,Low
+140,24,Female,42676,College,West,Regular,occasional,15874,Clothing,0,6.0,College,601,23/8/2024,Credit Card,531.0,186.0,7,No Return,High
+141,33,Male,17214,College,East,Gold,occasional,6098,Electronics,0,5.0,College,238,26/8/2023,Cash,369.0,88.0,8,No Return,Neutral
+142,29,Female,42627,College,South,Regular,rare,13441,Clothing,0,6.0,College,588,10/8/2024,PayPal,402.0,167.0,1,Returned,High
+143,23,Male,44764,College,North,Silver,rare,18931,Books,1,4.0,College,433,08/3/2024,Cash,200.0,187.0,8,No Return,Low
+145,23,Female,32419,College,South,Regular,rare,11515,Electronics,0,4.0,College,362,28/12/2023,Debit Card,635.0,57.0,8,No Return,Low
+146,28,Male,39265,College,South,Regular,rare,13114,Food,0,4.0,College,18,18/1/2023,Debit Card,940.0,46.0,5,No Return,Low
+147,23,Male,48577,HighSchool,North,Regular,occasional,19674,Food,0,7.0,HighSchool,715,15/12/2024,Debit Card,717.0,21.0,7,No Return,High
+148,33,Female,32069,College,West,Regular,occasional,12844,Electronics,0,5.0,College,211,30/7/2023,Debit Card,22.0,103.0,6,No Return,Neutral
+152,33,Male,26110,Masters,North,Regular,occasional,9307,Clothing,0,6.0,Masters,606,28/8/2024,Credit Card,295.0,68.0,4,No Return,High
+153,31,Male,11871,HighSchool,North,Gold,frequent,3330,Health,0,5.0,HighSchool,469,13/4/2024,PayPal,428.0,42.0,6,No Return,Neutral
+154,25,Male,41283,Bachelor,East,Regular,frequent,14639,Electronics,0,4.0,Bachelor,406,10/2/2024,Cash,749.0,68.0,6,No Return,Low
+155,29,Male,31916,Bachelor,South,Regular,rare,10921,Electronics,1,6.0,Bachelor,739,08/1/2025,Cash,34.0,47.0,6,No Return,High
+156,29,Male,10545,College,North,Regular,rare,3966,Electronics,0,4.0,College,705,05/12/2024,PayPal,614.0,28.0,5,Returned,Low
+157,33,Male,34940,College,East,Regular,rare,11283,Clothing,1,7.0,College,742,11/1/2025,Cash,801.0,44.0,3,Returned,High
+158,28,Male,43623,HighSchool,East,Regular,rare,16513,Home,0,5.0,HighSchool,638,29/9/2024,Debit Card,801.0,86.0,2,No Return,Neutral
+159,34,Female,28363,HighSchool,North,Regular,occasional,12462,Home,0,7.0,HighSchool,209,28/7/2023,Debit Card,878.0,16.0,1,Returned,High
+160,28,Female,9764,HighSchool,North,Gold,rare,4345,Electronics,1,5.0,HighSchool,327,23/11/2023,Cash,487.0,130.0,6,No Return,Neutral
+161,35,Female,42574,College,East,Regular,frequent,11767,Health,0,3.0,College,13,13/1/2023,Cash,666.0,115.0,7,No Return,Low
+162,25,Male,26516,HighSchool,West,Gold,rare,7435,Books,1,2.0,HighSchool,143,23/5/2023,PayPal,738.0,14.0,1,No Return,Low
+163,24,Female,19371,College,South,Silver,occasional,6986,Health,0,4.0,College,624,15/9/2024,PayPal,920.0,35.0,1,No Return,Low
+164,44,Female,46160,Bachelor,East,Regular,occasional,18143,Books,0,4.0,Bachelor,662,23/10/2024,Credit Card,872.0,199.0,2,No Return,Low
+165,28,Female,9172,College,East,Gold,rare,2659,Electronics,0,6.0,College,187,06/7/2023,Cash,653.0,45.0,5,No Return,High
+166,31,Male,14199,Bachelor,West,Regular,occasional,4785,Food,0,5.0,Bachelor,167,16/6/2023,PayPal,185.0,143.0,8,No Return,Neutral
+167,33,Female,41493,College,West,Regular,rare,13142,Beauty,0,6.0,College,108,18/4/2023,Debit Card,617.0,6.0,8,No Return,High
+168,28,Male,44178,Bachelor,East,Regular,occasional,16278,Food,0,6.0,Bachelor,137,17/5/2023,Debit Card,162.0,76.0,7,No Return,High
+169,32,Male,41456,HighSchool,East,Gold,occasional,12272,Books,0,4.0,HighSchool,727,27/12/2024,Cash,854.0,89.0,1,No Return,Low
+171,29,Female,41943,Bachelor,North,Gold,rare,13751,Clothing,0,5.0,Bachelor,508,22/5/2024,PayPal,538.0,181.0,1,No Return,Neutral
+172,30,Male,33403,HighSchool,West,Regular,occasional,14141,Books,1,4.0,HighSchool,407,11/2/2024,Debit Card,548.0,111.0,3,No Return,Low
+173,30,Male,39944,HighSchool,West,Regular,rare,15514,Electronics,0,4.0,HighSchool,479,23/4/2024,Debit Card,868.0,30.0,1,No Return,Low
+178,31,Female,44034,Bachelor,West,Regular,occasional,12097,Clothing,0,6.0,Bachelor,63,04/3/2023,Cash,642.0,120.0,7,No Return,High
+179,32,Female,17877,Bachelor,North,Regular,rare,7104,Clothing,0,5.0,Bachelor,545,28/6/2024,Cash,204.0,,1,No Return,Neutral
+180,28,Male,37512,Masters,West,Regular,rare,13374,Food,0,5.0,Masters,215,03/8/2023,PayPal,716.0,79.0,2,No Return,Neutral
+181,25,Male,25088,Masters,South,Silver,occasional,9764,Clothing,0,3.0,Masters,279,06/10/2023,Credit Card,322.0,61.0,6,No Return,Low
+182,36,Female,48792,Bachelor,East,Regular,rare,18203,Electronics,0,6.0,Bachelor,607,29/8/2024,Debit Card,615.0,145.0,3,No Return,High
+183,28,Male,9552,HighSchool,North,Silver,rare,3110,Clothing,1,5.0,HighSchool,608,30/8/2024,PayPal,835.0,127.0,3,No Return,Neutral
+184,26,Female,25282,College,North,Regular,rare,6691,Electronics,0,6.0,College,235,23/8/2023,PayPal,786.0,154.0,2,No Return,High
+185,29,Female,28678,Bachelor,East,Regular,rare,10566,Electronics,0,4.0,Bachelor,637,28/9/2024,PayPal,146.0,196.0,9,No Return,Low
+186,29,Male,25024,Masters,West,Gold,rare,8423,Books,0,3.0,Masters,567,20/7/2024,Debit Card,927.0,51.0,7,Returned,Low
+187,35,Male,9157,Bachelor,East,Silver,occasional,3337,Food,0,5.0,Bachelor,439,14/3/2024,Credit Card,550.0,26.0,6,No Return,Neutral
+190,28,Male,32818,College,East,Gold,occasional,10428,Clothing,1,5.0,College,229,17/8/2023,Credit Card,195.0,111.0,8,No Return,Neutral
+191,31,Female,26201,College,South,Silver,occasional,8916,Clothing,0,4.0,College,55,24/2/2023,Debit Card,340.0,95.0,6,No Return,Low
+193,30,Female,10651,HighSchool,East,Regular,rare,2841,Electronics,0,3.0,HighSchool,347,13/12/2023,Debit Card,764.0,93.0,7,No Return,Low
+194,26,Male,11708,College,North,Gold,occasional,3073,Books,0,5.0,College,487,01/5/2024,PayPal,834.0,13.0,9,No Return,Neutral
+197,33,Female,16139,College,South,Regular,rare,6493,Books,0,4.0,College,111,21/4/2023,Debit Card,418.0,161.0,3,No Return,Low
+198,24,Female,11170,College,North,Silver,rare,4259,Clothing,0,3.0,College,704,04/12/2024,Credit Card,754.0,191.0,5,No Return,Low
+199,27,Female,29872,Bachelor,North,Gold,rare,11418,Electronics,1,4.0,Bachelor,308,04/11/2023,Credit Card,723.0,50.0,7,No Return,Low
+201,40,Female,25670,Bachelor,West,Silver,rare,11286,Beauty,0,4.0,Bachelor,356,22/12/2023,Credit Card,45.0,42.0,9,Returned,Low
+202,36,Female,19908,College,East,Regular,occasional,8343,Electronics,0,6.0,College,192,11/7/2023,Debit Card,339.0,66.0,1,No Return,High
+203,29,Female,12931,HighSchool,East,Silver,occasional,4654,Beauty,1,4.0,HighSchool,151,31/5/2023,PayPal,217.0,183.0,2,No Return,Low
+204,32,Male,22524,College,West,Silver,occasional,8609,Books,0,6.0,College,422,26/2/2024,PayPal,951.0,63.0,5,No Return,High
+205,28,Male,10825,HighSchool,North,Regular,rare,3600,Clothing,1,5.0,HighSchool,654,15/10/2024,Debit Card,250.0,145.0,2,No Return,Neutral
+206,28,Female,44816,HighSchool,West,Regular,rare,18073,Clothing,0,5.0,HighSchool,200,19/7/2023,Cash,979.0,131.0,9,No Return,Neutral
+207,26,Male,6076,Bachelor,West,Silver,frequent,2311,Clothing,0,4.0,Bachelor,626,17/9/2024,Credit Card,853.0,96.0,8,No Return,Low
+210,30,Male,31899,College,East,Regular,occasional,9450,Clothing,0,5.0,College,709,09/12/2024,Cash,555.0,164.0,3,No Return,Neutral
+212,31,Female,47360,Bachelor,East,Gold,rare,13738,Books,0,6.0,Bachelor,278,05/10/2023,Debit Card,10.0,178.0,2,No Return,High
+213,36,Female,10204,HighSchool,East,Regular,frequent,3178,Food,0,5.0,HighSchool,305,01/11/2023,PayPal,588.0,152.0,4,No Return,Neutral
+214,28,Female,25061,College,West,Silver,rare,8439,Food,0,3.0,College,300,27/10/2023,Credit Card,575.0,142.0,6,No Return,Low
+215,26,Female,38394,College,South,Regular,occasional,11142,Clothing,0,3.0,College,566,19/7/2024,Credit Card,420.0,161.0,8,No Return,Low
+216,37,Female,23829,Bachelor,West,Silver,occasional,8019,Electronics,0,5.0,Bachelor,36,05/2/2023,Credit Card,,176.0,4,No Return,Neutral
+217,28,Male,48586,Masters,North,Regular,occasional,16810,Electronics,1,5.0,Masters,155,04/6/2023,PayPal,329.0,60.0,8,No Return,Neutral
+218,27,Female,22675,HighSchool,East,Regular,occasional,7789,Books,0,5.0,HighSchool,671,01/11/2024,Credit Card,204.0,133.0,6,Returned,Neutral
+219,24,Female,46062,College,North,Gold,rare,18283,Electronics,0,5.0,College,245,02/9/2023,Debit Card,467.0,195.0,6,No Return,Neutral
+220,24,Male,32402,College,West,Regular,occasional,11514,Clothing,1,4.0,College,447,22/3/2024,Cash,654.0,85.0,6,No Return,Low
+221,27,Male,40775,Bachelor,West,Silver,occasional,15517,Food,0,5.0,Bachelor,21,21/1/2023,Debit Card,257.0,0.0,3,Returned,Neutral
+222,33,Female,28231,HighSchool,North,Silver,rare,8315,Clothing,0,4.0,HighSchool,692,22/11/2024,Cash,219.0,102.0,9,No Return,Low
+223,35,Male,17811,Bachelor,South,Regular,rare,5726,Electronics,0,5.0,Bachelor,46,15/2/2023,PayPal,40.0,52.0,9,No Return,Neutral
+227,27,Male,30931,HighSchool,South,Regular,occasional,11448,Clothing,0,7.0,HighSchool,693,23/11/2024,Cash,77.0,195.0,1,No Return,High
+229,34,Male,32273,Bachelor,South,Regular,occasional,12552,Books,1,4.0,Bachelor,559,12/7/2024,Credit Card,878.0,127.0,6,No Return,Low
+230,25,Male,36185,College,West,Silver,frequent,13074,Electronics,0,5.0,College,14,14/1/2023,Debit Card,392.0,106.0,3,No Return,Neutral
+232,30,Female,40741,Bachelor,East,Regular,frequent,10836,Food,0,3.0,Bachelor,717,17/12/2024,Credit Card,220.0,104.0,3,No Return,Low
+233,31,Female,49609,College,South,Regular,occasional,20051,Electronics,1,5.0,College,537,20/6/2024,Cash,190.0,10.0,9,No Return,Neutral
+234,27,Female,8349,College,East,Silver,rare,2167,Electronics,0,6.0,College,345,11/12/2023,PayPal,304.0,130.0,4,No Return,High
+235,27,Female,30281,College,East,Regular,rare,10599,Books,0,5.0,College,491,05/5/2024,Cash,447.0,27.0,5,No Return,Neutral
+236,24,Female,10103,Bachelor,East,Regular,rare,2749,Food,1,3.0,Bachelor,203,22/7/2023,Debit Card,832.0,1.0,1,No Return,Low
+237,29,Male,43970,College,West,Silver,rare,14540,Electronics,0,4.0,College,338,04/12/2023,Debit Card,289.0,8.0,8,No Return,Low
+238,32,Female,19535,College,West,Regular,rare,6048,Electronics,0,5.0,College,341,07/12/2023,Cash,513.0,23.0,3,Returned,Neutral
+239,31,Male,27264,Masters,South,Regular,rare,8536,Clothing,0,5.0,Masters,382,17/1/2024,PayPal,402.0,35.0,7,No Return,Neutral
+241,26,Male,11387,College,North,Regular,rare,3473,Electronics,0,6.0,College,449,24/3/2024,Debit Card,647.0,16.0,2,No Return,High
+242,28,Female,21174,Bachelor,East,Silver,rare,6930,Food,0,5.0,Bachelor,710,10/12/2024,PayPal,692.0,144.0,8,No Return,Neutral
+243,37,Male,24253,Bachelor,North,Regular,occasional,12194,Health,0,4.0,Bachelor,343,09/12/2023,Credit Card,690.0,0.0,3,No Return,Low
+244,25,Female,24190,Bachelor,West,Regular,occasional,9663,Electronics,0,6.0,Bachelor,61,02/3/2023,PayPal,694.0,175.0,5,No Return,High
+245,29,Male,18220,College,North,Regular,rare,6657,Health,0,6.0,College,182,01/7/2023,Debit Card,324.0,67.0,1,No Return,High
+246,39,Female,40676,HighSchool,North,Regular,rare,13107,Beauty,1,5.0,HighSchool,379,14/1/2024,Debit Card,861.0,14.0,7,No Return,Neutral
+247,30,Male,13717,Bachelor,West,Regular,rare,5133,Electronics,0,6.0,Bachelor,1,01/1/2023,PayPal,608.0,180.0,1,No Return,High
+248,24,Male,18666,HighSchool,East,Regular,occasional,6429,Clothing,1,6.0,HighSchool,266,23/9/2023,Cash,105.0,74.0,3,No Return,High
+250,32,Male,10956,College,East,Regular,rare,4354,Electronics,0,3.0,College,23,23/1/2023,Debit Card,728.0,106.0,1,No Return,Low
+253,28,Male,33724,Masters,South,Regular,frequent,12105,Books,0,4.0,Masters,535,18/6/2024,Debit Card,92.0,72.0,7,No Return,Low
+254,30,Male,39742,HighSchool,North,Silver,frequent,15486,Books,1,4.0,HighSchool,510,24/5/2024,Credit Card,163.0,151.0,6,No Return,Low
+255,37,Female,29977,Bachelor,East,Regular,occasional,10274,Health,1,5.0,Bachelor,560,13/7/2024,Debit Card,539.0,115.0,5,No Return,Neutral
+256,30,Male,14996,Bachelor,West,Silver,frequent,4868,Clothing,0,6.0,Bachelor,672,02/11/2024,PayPal,946.0,91.0,5,No Return,High
+257,35,Male,8397,HighSchool,North,Regular,rare,2623,Clothing,0,6.0,HighSchool,614,05/9/2024,Credit Card,853.0,113.0,6,No Return,High
+258,33,Female,25532,Bachelor,South,Silver,occasional,9754,Books,0,5.0,Bachelor,315,11/11/2023,PayPal,500.0,77.0,5,Returned,Neutral
+259,29,Female,12771,College,North,Silver,frequent,5408,Clothing,0,3.0,College,514,28/5/2024,Credit Card,425.0,186.0,7,No Return,Low
+261,28,Female,38961,College,North,Silver,rare,10382,Clothing,0,6.0,College,549,02/7/2024,Debit Card,507.0,115.0,2,No Return,High
+262,28,Female,6156,College,West,Silver,rare,1771,Books,0,6.0,College,176,25/6/2023,Debit Card,638.0,6.0,2,No Return,High
+263,30,Male,45604,College,West,Regular,occasional,15190,Electronics,0,5.0,College,159,08/6/2023,Cash,454.0,91.0,6,No Return,Neutral
+264,36,Male,42666,Masters,North,Regular,occasional,16756,Food,1,5.0,Masters,591,13/8/2024,PayPal,286.0,49.0,7,No Return,Neutral
+266,37,Male,39336,HighSchool,East,Regular,occasional,12318,Electronics,0,5.0,HighSchool,311,07/11/2023,Credit Card,195.0,90.0,9,No Return,Neutral
+267,29,Female,33422,College,South,Silver,rare,11767,Food,0,5.0,College,714,14/12/2024,Debit Card,378.0,137.0,2,No Return,Neutral
+268,22,Male,36568,Bachelor,West,Regular,frequent,12768,Electronics,0,4.0,Bachelor,5,05/1/2023,PayPal,92.0,101.0,9,No Return,Low
+270,30,Female,46086,College,West,Regular,occasional,16062,Electronics,0,2.0,College,214,02/8/2023,PayPal,801.0,96.0,5,No Return,Low
+271,34,Male,16479,Bachelor,North,Silver,rare,5591,Electronics,1,5.0,Bachelor,484,28/4/2024,Debit Card,441.0,7.0,2,No Return,Neutral
+272,34,Female,8834,College,North,Regular,occasional,3274,Electronics,0,5.0,College,241,29/8/2023,PayPal,449.0,50.0,9,Returned,Neutral
+274,24,Male,38719,Masters,West,Silver,rare,13016,Home,0,5.0,Masters,70,11/3/2023,Cash,548.0,41.0,5,Returned,Neutral
+275,34,Male,32828,College,West,Silver,occasional,12406,Health,1,5.0,College,421,25/2/2024,Credit Card,863.0,16.0,3,No Return,Neutral
+276,28,Female,16060,Bachelor,North,Gold,occasional,6997,Electronics,1,5.0,Bachelor,282,09/10/2023,Cash,581.0,190.0,7,No Return,Neutral
+277,31,Female,11390,HighSchool,North,Regular,frequent,3556,Clothing,0,5.0,HighSchool,456,31/3/2024,PayPal,186.0,198.0,9,No Return,Neutral
+280,30,Female,7208,Bachelor,North,Regular,occasional,2700,Electronics,0,7.0,Bachelor,174,23/6/2023,Debit Card,839.0,196.0,1,No Return,High
+281,23,Female,43082,Bachelor,South,Silver,rare,16697,Electronics,0,6.0,Bachelor,175,24/6/2023,Credit Card,972.0,23.0,4,No Return,High
+282,33,Female,26733,HighSchool,North,Gold,rare,9219,Food,1,5.0,HighSchool,74,15/3/2023,Credit Card,682.0,180.0,7,No Return,Neutral
+283,32,Male,45673,College,North,Regular,occasional,12287,Clothing,1,5.0,College,310,06/11/2023,Cash,868.0,51.0,4,No Return,Neutral
+284,29,Male,22722,HighSchool,North,Silver,occasional,6500,Beauty,1,5.0,HighSchool,481,25/4/2024,Credit Card,860.0,129.0,5,Returned,Neutral
+285,31,Male,36436,HighSchool,North,Regular,rare,13047,Books,1,7.0,HighSchool,679,09/11/2024,Debit Card,192.0,69.0,3,No Return,High
+286,31,Male,38301,Masters,West,Regular,rare,14734,Electronics,0,5.0,Masters,369,04/1/2024,Cash,853.0,32.0,9,No Return,Neutral
+287,31,Male,29424,HighSchool,South,Regular,occasional,9737,Food,0,6.0,HighSchool,170,19/6/2023,Cash,106.0,87.0,9,No Return,High
+288,37,Male,47514,Bachelor,East,Regular,rare,13508,Clothing,0,6.0,Bachelor,202,21/7/2023,PayPal,685.0,79.0,1,Returned,High
+289,29,Female,26094,College,South,Silver,occasional,10512,Clothing,0,6.0,College,20,20/1/2023,Debit Card,917.0,96.0,4,Returned,High
+291,35,Female,13889,College,East,Regular,rare,3315,Books,0,3.0,College,180,29/6/2023,Cash,604.0,73.0,7,No Return,Low
+292,35,Male,31351,Masters,East,Regular,frequent,10382,Electronics,0,6.0,Masters,100,10/4/2023,Cash,490.0,111.0,1,No Return,High
+293,35,Female,48246,College,North,Silver,rare,15809,Home,0,6.0,College,575,28/7/2024,Debit Card,412.0,121.0,1,Returned,High
+294,27,Female,14403,College,East,Silver,occasional,4884,Food,0,7.0,College,435,10/3/2024,Credit Card,489.0,85.0,9,No Return,High
+296,30,Female,15992,College,South,Silver,frequent,5670,Health,0,6.0,College,689,19/11/2024,Credit Card,578.0,8.0,8,No Return,High
+298,24,Female,24085,HighSchool,South,Regular,rare,9676,Clothing,1,4.0,HighSchool,659,20/10/2024,PayPal,284.0,125.0,1,No Return,Low
+299,30,Female,42608,Masters,West,Regular,rare,12683,Food,1,5.0,Masters,27,27/1/2023,Cash,837.0,173.0,2,No Return,Neutral
+300,36,Female,29018,HighSchool,East,Silver,rare,8926,Health,1,5.0,HighSchool,645,06/10/2024,PayPal,849.0,176.0,2,No Return,Neutral
+302,27,Female,19355,Masters,West,Silver,frequent,7050,Clothing,0,5.0,Masters,642,03/10/2024,Debit Card,74.0,81.0,3,No Return,Neutral
+303,26,Male,9202,College,West,Silver,rare,3117,Electronics,1,5.0,College,118,28/4/2023,PayPal,611.0,14.0,6,No Return,Neutral
+304,25,Male,25097,HighSchool,East,Regular,rare,8868,Electronics,0,4.0,HighSchool,336,02/12/2023,PayPal,239.0,192.0,3,No Return,Low
+305,28,Male,14495,Masters,North,Gold,rare,5126,Electronics,0,5.0,Masters,114,24/4/2023,PayPal,910.0,93.0,7,No Return,Neutral
+306,31,Female,6823,Bachelor,East,Gold,rare,2301,Electronics,0,7.0,Bachelor,204,23/7/2023,Cash,390.0,166.0,7,No Return,High
+307,21,Male,18994,College,East,Regular,occasional,6887,Food,1,6.0,College,163,12/6/2023,Credit Card,778.0,9.0,7,No Return,High
+308,31,Female,21562,College,East,Regular,occasional,8190,Electronics,1,4.0,College,304,31/10/2023,Credit Card,568.0,93.0,7,No Return,Low
+311,36,Male,24307,Bachelor,East,Silver,rare,9610,Electronics,0,6.0,Bachelor,696,26/11/2024,Cash,489.0,43.0,1,No Return,High
+312,33,Male,23687,Bachelor,North,Silver,frequent,9973,Electronics,0,6.0,Bachelor,277,04/10/2023,Cash,803.0,1.0,2,No Return,High
+313,22,Female,35555,College,West,Regular,rare,9539,Books,0,4.0,College,349,15/12/2023,Debit Card,45.0,67.0,6,No Return,Low
+314,27,Female,6914,College,South,Silver,rare,2054,Electronics,0,6.0,College,585,07/8/2024,Cash,802.0,198.0,8,No Return,High
+315,28,Male,45122,College,North,Silver,rare,15244,Clothing,0,6.0,College,616,07/9/2024,PayPal,707.0,72.0,5,No Return,High
+316,33,Male,45809,Bachelor,North,Regular,rare,14109,Beauty,1,6.0,Bachelor,51,20/2/2023,PayPal,736.0,88.0,7,No Return,High
+317,30,Female,48613,Bachelor,West,Silver,rare,16170,Beauty,0,5.0,Bachelor,403,07/2/2024,Credit Card,289.0,168.0,8,No Return,Neutral
+318,24,Male,35447,College,South,Regular,frequent,11624,Books,0,6.0,College,218,06/8/2023,Debit Card,581.0,128.0,1,No Return,High
+319,38,Female,17904,College,East,Regular,occasional,5706,Books,0,5.0,College,265,22/9/2023,PayPal,189.0,153.0,4,No Return,Neutral
+320,34,Male,7568,Masters,West,Regular,rare,2926,Electronics,1,6.0,Masters,540,23/6/2024,Credit Card,626.0,,7,Returned,High
+322,35,Female,33869,College,South,Regular,occasional,11264,Books,0,5.0,College,402,06/2/2024,PayPal,668.0,36.0,1,No Return,Neutral
+323,24,Female,18743,College,East,Regular,rare,5937,Food,0,4.0,College,147,27/5/2023,PayPal,714.0,119.0,4,No Return,Low
+324,33,Female,8375,College,West,Regular,rare,2976,Electronics,0,5.0,College,385,20/1/2024,Credit Card,374.0,41.0,3,No Return,Neutral
+325,28,Male,37689,HighSchool,North,Silver,occasional,15993,Health,0,6.0,HighSchool,678,08/11/2024,Cash,256.0,94.0,9,No Return,High
+326,33,Female,48920,HighSchool,East,Silver,occasional,18177,Clothing,0,5.0,HighSchool,738,07/1/2025,Cash,615.0,78.0,8,No Return,Neutral
+329,36,Female,45091,Bachelor,North,Regular,occasional,16138,Clothing,1,4.0,Bachelor,511,25/5/2024,PayPal,659.0,81.0,3,No Return,Low
+330,30,Female,13294,HighSchool,West,Gold,occasional,4709,Clothing,1,5.0,HighSchool,436,11/3/2024,Cash,203.0,151.0,9,No Return,Neutral
+331,35,Male,22058,College,South,Regular,occasional,7294,Electronics,0,4.0,College,30,30/1/2023,PayPal,912.0,158.0,6,Returned,Low
+332,25,Female,43068,College,South,Gold,rare,14033,Clothing,0,2.0,College,669,30/10/2024,Cash,489.0,6.0,1,No Return,Low
+334,37,Male,30434,HighSchool,South,Regular,rare,10953,Books,1,4.0,HighSchool,730,30/12/2024,Credit Card,262.0,36.0,2,Returned,Low
+336,21,Male,23464,Bachelor,South,Silver,rare,7759,Beauty,0,4.0,Bachelor,350,16/12/2023,Cash,436.0,11.0,8,No Return,Low
+338,29,Male,40798,Bachelor,West,Silver,rare,15592,Beauty,1,5.0,Bachelor,720,20/12/2024,PayPal,745.0,68.0,5,No Return,Neutral
+339,34,Female,42056,College,East,Gold,rare,14809,Food,0,4.0,College,466,10/4/2024,Credit Card,608.0,38.0,8,No Return,Low
+340,30,Male,21814,College,East,Regular,rare,7372,Food,1,4.0,College,552,05/7/2024,Cash,913.0,46.0,8,No Return,Low
+342,34,Female,30009,HighSchool,West,Regular,rare,10114,Electronics,0,4.0,HighSchool,698,28/11/2024,Debit Card,730.0,71.0,8,No Return,Low
+343,37,Female,42990,College,West,Gold,rare,10937,Books,1,5.0,College,746,15/1/2025,Cash,261.0,1340.0,5,No Return,Neutral
+345,30,Male,43047,Masters,West,Regular,occasional,14408,Food,0,5.0,Masters,625,16/9/2024,Cash,606.0,94.0,2,No Return,Neutral
+346,22,Male,17407,College,West,Silver,rare,6142,Food,0,5.0,College,26,26/1/2023,PayPal,296.0,183.0,4,No Return,Neutral
+348,27,Male,40424,College,North,Regular,rare,15517,Electronics,0,4.0,College,31,31/1/2023,Cash,178.0,10.0,9,No Return,Low
+349,26,Male,31521,Bachelor,East,Regular,occasional,9615,Health,0,6.0,Bachelor,562,15/7/2024,Cash,691.0,57.0,1,No Return,High
+350,29,Female,7938,College,West,Regular,rare,2589,Electronics,0,5.0,College,610,01/9/2024,Cash,785.0,171.0,6,No Return,Neutral
+351,35,Female,40922,Bachelor,East,Gold,frequent,13098,Beauty,0,7.0,Bachelor,723,23/12/2024,Credit Card,709.0,47.0,1,No Return,High
+352,21,Male,25727,College,South,Regular,occasional,8405,Clothing,0,5.0,College,134,14/5/2023,Credit Card,244.0,16.0,3,No Return,Neutral
+353,28,Male,22111,College,West,Regular,rare,7874,Books,0,5.0,College,712,12/12/2024,Cash,637.0,49.0,3,No Return,Neutral
+355,26,Male,14492,College,West,Regular,rare,4717,Beauty,0,5.0,College,126,06/5/2023,Cash,186.0,9.0,4,Returned,Neutral
+357,32,Female,9773,College,East,Regular,rare,3955,Clothing,0,5.0,College,213,01/8/2023,Debit Card,875.0,1.0,7,No Return,Neutral
+358,30,Male,9643,HighSchool,East,Silver,frequent,4031,Health,0,7.0,HighSchool,129,09/5/2023,Credit Card,824.0,72.0,1,No Return,High
+359,19,Male,41235,Bachelor,East,Regular,rare,12627,Clothing,1,7.0,Bachelor,119,29/4/2023,Credit Card,736.0,57.0,8,No Return,High
+361,29,Male,10105,College,East,Regular,occasional,4364,Electronics,0,4.0,College,329,25/11/2023,Cash,782.0,182.0,9,No Return,Low
+362,33,Female,6607,Bachelor,West,Regular,frequent,2473,Electronics,0,2.0,Bachelor,500,14/5/2024,PayPal,308.0,105.0,7,No Return,Low
+363,31,Female,28025,Bachelor,West,Regular,frequent,12682,Home,0,6.0,Bachelor,250,07/9/2023,Cash,642.0,130.0,5,No Return,High
+367,32,Female,16339,Masters,North,Regular,occasional,5765,Electronics,1,3.0,Masters,522,05/6/2024,Credit Card,744.0,117.0,9,No Return,Low
+368,26,Female,35023,College,West,Silver,rare,10259,Books,0,5.0,College,166,15/6/2023,Credit Card,204.0,72.0,4,No Return,Neutral
+369,34,Female,39534,Masters,East,Silver,rare,15578,Books,1,5.0,Masters,737,06/1/2025,PayPal,978.0,0.0,4,No Return,Neutral
+371,41,Male,7753,HighSchool,West,Regular,rare,1753,Clothing,0,5.0,HighSchool,206,25/7/2023,Debit Card,216.0,40.0,7,No Return,Neutral
+372,23,Male,15592,College,East,Silver,rare,4665,Books,0,4.0,College,354,20/12/2023,Cash,171.0,125.0,7,No Return,Low
+373,28,Female,24408,College,North,Regular,rare,7806,Clothing,1,4.0,College,317,13/11/2023,PayPal,537.0,60.0,5,No Return,Low
+374,34,Female,42544,HighSchool,East,Silver,occasional,11805,Electronics,0,5.0,HighSchool,639,30/9/2024,Debit Card,766.0,78.0,6,No Return,Neutral
+375,32,Male,34992,Masters,North,Gold,occasional,10615,Food,1,4.0,Masters,464,08/4/2024,Cash,885.0,49.0,8,No Return,Low
+377,26,Female,13891,College,North,Silver,occasional,5510,Books,0,6.0,College,122,02/5/2023,PayPal,760.0,50.0,6,No Return,High
+378,31,Male,19763,Masters,East,Regular,rare,6478,Electronics,0,4.0,Masters,25,25/1/2023,PayPal,691.0,180.0,8,Returned,Low
+379,30,Female,39032,College,North,Silver,occasional,13794,Clothing,1,6.0,College,249,06/9/2023,Cash,260.0,101.0,8,Returned,High
+381,30,Male,26175,College,North,Gold,frequent,7418,Health,0,5.0,College,293,20/10/2023,Debit Card,874.0,117.0,7,No Return,Neutral
+382,31,Male,42723,HighSchool,East,Silver,occasional,13045,Electronics,0,5.0,HighSchool,587,09/8/2024,Credit Card,683.0,172.0,6,Returned,Neutral
+383,31,Female,41087,College,East,Regular,frequent,13315,Books,0,5.0,College,28,28/1/2023,Cash,897.0,105.0,8,No Return,Neutral
+384,25,Female,45806,Bachelor,North,Regular,occasional,13282,Clothing,0,6.0,Bachelor,358,24/12/2023,Cash,272.0,16.0,7,No Return,High
+385,32,Male,32593,Bachelor,South,Regular,rare,12289,Beauty,1,5.0,Bachelor,495,09/5/2024,Cash,302.0,12.0,6,No Return,Neutral
+386,36,Male,42008,College,East,Silver,rare,13351,Food,0,5.0,College,520,03/6/2024,Cash,797.0,7.0,9,Returned,Neutral
+387,32,Male,20779,HighSchool,North,Silver,occasional,6412,Books,1,6.0,HighSchool,408,12/2/2024,Debit Card,719.0,15.0,5,No Return,High
+388,25,Female,42990,College,West,Gold,occasional,15991,Health,1,6.0,College,498,12/5/2024,Credit Card,976.0,125.0,4,No Return,High
+389,28,Female,14253,College,South,Regular,rare,4487,Beauty,1,4.0,College,154,03/6/2023,PayPal,812.0,194.0,4,No Return,Low
+390,32,Female,33193,Bachelor,North,Regular,rare,10499,Electronics,0,5.0,Bachelor,243,31/8/2023,Credit Card,942.0,163.0,5,Returned,Neutral
+391,27,Female,37881,Bachelor,East,Regular,occasional,16165,Books,0,4.0,Bachelor,583,05/8/2024,Cash,183.0,175.0,7,No Return,Low
+393,34,Female,15937,College,West,Gold,occasional,5345,Books,0,4.0,College,248,05/9/2023,PayPal,748.0,41.0,5,No Return,Low
+394,26,Female,45551,College,South,Silver,occasional,17274,Books,0,5.0,College,477,21/4/2024,PayPal,786.0,113.0,9,No Return,Neutral
+395,27,Male,14171,Bachelor,South,Silver,rare,5348,Food,0,5.0,Bachelor,161,10/6/2023,Cash,799.0,161.0,8,Returned,Neutral
+396,37,Male,6122,College,North,Regular,rare,1729,Electronics,0,5.0,College,42,11/2/2023,Debit Card,269.0,178.0,2,Returned,Neutral
+397,27,Female,43270,College,East,Regular,occasional,15992,Health,0,5.0,College,72,13/3/2023,PayPal,475.0,11.0,5,Returned,Neutral
+398,34,Female,26165,Bachelor,East,Regular,occasional,7130,Electronics,0,3.0,Bachelor,131,11/5/2023,Cash,551.0,92.0,7,No Return,Low
+399,24,Female,38172,Bachelor,West,Gold,occasional,12982,Food,0,5.0,Bachelor,660,21/10/2024,Credit Card,690.0,63.0,1,Returned,Neutral
+400,28,Female,7815,College,North,Regular,occasional,2275,Electronics,0,5.0,College,193,12/7/2023,Credit Card,933.0,97.0,9,Returned,Neutral
+401,30,Female,35361,College,South,Regular,occasional,12264,Beauty,0,4.0,College,544,27/6/2024,PayPal,932.0,,5,No Return,Low
+402,25,Male,39766,HighSchool,South,Silver,occasional,12387,Books,1,5.0,HighSchool,276,03/10/2023,Debit Card,983.0,45.0,7,No Return,Neutral
+403,27,Female,23136,HighSchool,East,Silver,occasional,6827,Books,0,5.0,HighSchool,391,26/1/2024,PayPal,53.0,118.0,5,No Return,Neutral
+404,30,Female,24467,Masters,West,Regular,frequent,8375,Electronics,0,4.0,Masters,375,10/1/2024,Debit Card,174.0,183.0,9,No Return,Low
+405,33,Male,18026,Masters,North,Regular,frequent,5131,Books,0,4.0,Masters,289,16/10/2023,Cash,970.0,26.0,4,No Return,Low
+408,33,Male,10066,College,East,Silver,occasional,3505,Books,1,6.0,College,84,25/3/2023,Credit Card,891.0,50.0,9,No Return,High
+411,32,Female,48613,Bachelor,South,Regular,rare,15510,Books,0,5.0,Bachelor,582,04/8/2024,Cash,410.0,114.0,2,No Return,Neutral
+412,31,Female,7150,HighSchool,South,Gold,frequent,2005,Clothing,1,6.0,HighSchool,442,17/3/2024,Credit Card,985.0,114.0,7,No Return,High
+413,33,Female,16469,HighSchool,East,Silver,rare,6304,Clothing,1,6.0,HighSchool,605,27/8/2024,Cash,635.0,91.0,1,No Return,High
+414,29,Male,18486,College,West,Regular,occasional,5011,Beauty,1,5.0,College,548,01/7/2024,Cash,426.0,,6,No Return,Neutral
+416,18,Female,12567,Bachelor,South,Regular,frequent,4828,Electronics,0,6.0,Bachelor,24,24/1/2023,Cash,350.0,15.0,3,Returned,High
+417,30,Male,35623,College,West,Silver,occasional,7502,Clothing,0,6.0,College,79,20/3/2023,Debit Card,17.0,180.0,9,No Return,High
+418,32,Female,5807,College,West,Gold,frequent,2046,Food,1,7.0,College,553,06/7/2024,Debit Card,708.0,56.0,5,No Return,High
+420,28,Female,40940,College,East,Silver,occasional,13390,Clothing,0,6.0,College,518,01/6/2024,Cash,128.0,130.0,7,No Return,High
+421,38,Male,27281,College,North,Regular,frequent,11166,Clothing,0,5.0,College,198,17/7/2023,Credit Card,739.0,131.0,2,No Return,Neutral
+425,27,Male,28829,Bachelor,North,Regular,occasional,11280,Electronics,0,5.0,Bachelor,381,16/1/2024,Debit Card,691.0,126.0,2,No Return,Neutral
+426,28,Male,11997,HighSchool,South,Regular,occasional,5201,Clothing,0,5.0,HighSchool,339,05/12/2023,PayPal,165.0,15.0,3,No Return,Neutral
+427,41,Female,17059,Bachelor,North,Regular,occasional,4513,Books,0,6.0,Bachelor,219,07/8/2023,Debit Card,176.0,120.0,2,No Return,High
+428,30,Male,48146,Bachelor,South,Regular,rare,20023,Clothing,0,5.0,Bachelor,731,31/12/2024,Cash,391.0,71.0,6,No Return,Neutral
+429,37,Male,22707,College,North,Silver,rare,6800,Health,0,5.0,College,748,17/1/2025,Debit Card,103.0,88.0,2,Returned,Neutral
+430,24,Male,23412,HighSchool,North,Silver,occasional,9072,Books,1,2.0,HighSchool,149,29/5/2023,Credit Card,666.0,142.0,9,No Return,Low
+431,29,Male,39989,Bachelor,West,Regular,rare,14499,Electronics,0,5.0,Bachelor,473,17/4/2024,Debit Card,441.0,162.0,7,Returned,Neutral
+433,31,Female,5185,College,West,Silver,occasional,2070,Clothing,0,6.0,College,112,22/4/2023,Credit Card,218.0,122.0,3,No Return,High
+434,26,Female,45405,College,South,Gold,occasional,17613,Health,1,3.0,College,316,12/11/2023,Cash,477.0,178.0,3,No Return,Low
+436,25,Male,8342,Bachelor,East,Gold,rare,3046,Electronics,0,5.0,Bachelor,443,18/3/2024,Cash,210.0,198.0,2,No Return,Neutral
+437,33,Female,12359,Masters,South,Regular,rare,4089,Electronics,0,4.0,Masters,635,26/9/2024,PayPal,395.0,81.0,1,No Return,Low
+438,35,Male,24804,College,East,Silver,rare,6530,Electronics,0,3.0,College,140,20/5/2023,PayPal,925.0,187.0,2,No Return,Low
+439,20,Female,43965,College,South,Silver,occasional,13191,Clothing,1,6.0,College,597,19/8/2024,Credit Card,401.0,125.0,7,Returned,High
+440,36,Male,35285,College,North,Regular,rare,7902,Books,0,4.0,College,747,16/1/2025,Credit Card,366.0,1333.0,8,Returned,Low
+441,24,Female,5018,College,South,Regular,frequent,1605,Food,0,4.0,College,78,19/3/2023,Credit Card,214.0,53.0,4,Returned,Low
+442,32,Male,13089,College,East,Regular,frequent,4700,Electronics,0,7.0,College,716,16/12/2024,Debit Card,97.0,20.0,7,No Return,High
+443,33,Male,34802,HighSchool,West,Gold,occasional,15633,Electronics,0,5.0,HighSchool,307,03/11/2023,Cash,553.0,82.0,9,No Return,Neutral
+445,27,Female,8527,College,North,Regular,occasional,2444,Electronics,1,4.0,College,240,28/8/2023,Cash,851.0,5.0,6,No Return,Low
+446,31,Female,5552,College,North,Regular,occasional,1374,Health,0,4.0,College,516,30/5/2024,PayPal,597.0,138.0,1,Returned,Low
+447,32,Male,37693,HighSchool,West,Gold,rare,12181,Books,0,6.0,HighSchool,599,21/8/2024,Credit Card,540.0,190.0,9,No Return,High
+449,21,Male,8415,HighSchool,South,Regular,occasional,3700,Clothing,0,6.0,HighSchool,44,13/2/2023,PayPal,352.0,78.0,3,No Return,High
+450,23,Female,44727,College,West,Silver,frequent,13344,Electronics,0,6.0,College,22,22/1/2023,Credit Card,296.0,198.0,3,No Return,High
+451,36,Male,19522,Bachelor,North,Silver,rare,6711,Clothing,0,6.0,Bachelor,197,16/7/2023,Cash,829.0,97.0,8,No Return,High
+452,35,Male,49646,College,West,Gold,rare,13480,Electronics,1,4.0,College,373,08/1/2024,Credit Card,10.0,10.0,6,Returned,Low
+453,32,Female,28412,Masters,West,Silver,rare,12027,Home,0,6.0,Masters,363,29/12/2023,Cash,61.0,171.0,1,No Return,High
+454,33,Female,45999,College,West,Silver,frequent,15251,Health,0,4.0,College,658,19/10/2024,Credit Card,688.0,35.0,9,No Return,Low
+455,34,Male,26730,Bachelor,East,Silver,occasional,8926,Books,1,5.0,Bachelor,367,02/1/2024,PayPal,182.0,171.0,2,No Return,Neutral
+457,35,Female,17224,Masters,West,Regular,rare,5770,Books,0,5.0,Masters,494,08/5/2024,Cash,548.0,94.0,2,No Return,Neutral
+458,28,Female,40052,College,West,Regular,rare,14909,Food,0,4.0,College,216,04/8/2023,Credit Card,568.0,147.0,2,No Return,Low
+460,29,Female,31064,Masters,North,Regular,frequent,12216,Home,0,2.0,Masters,6,06/1/2023,Cash,734.0,153.0,5,No Return,Low
+461,34,Male,43417,College,North,Regular,frequent,14284,Books,0,6.0,College,387,22/1/2024,PayPal,807.0,11.0,4,No Return,High
+464,28,Female,20164,HighSchool,North,Regular,rare,6837,Electronics,1,6.0,HighSchool,451,26/3/2024,PayPal,466.0,112.0,7,Returned,High
+465,25,Female,28925,HighSchool,South,Silver,occasional,8516,Electronics,0,5.0,HighSchool,274,01/10/2023,Credit Card,29.0,114.0,1,No Return,Neutral
+466,35,Male,37465,Bachelor,West,Regular,rare,12000,Health,0,5.0,Bachelor,102,12/4/2023,PayPal,62.0,32.0,5,No Return,Neutral
+467,33,Female,38164,College,East,Regular,rare,13727,Food,0,3.0,College,168,17/6/2023,PayPal,608.0,168.0,5,No Return,Low
+469,30,Male,34636,HighSchool,South,Regular,rare,13327,Electronics,0,5.0,HighSchool,589,11/8/2024,Cash,705.0,60.0,8,No Return,Neutral
+471,39,Male,49993,Bachelor,North,Regular,frequent,19197,Health,0,7.0,Bachelor,458,02/4/2024,Credit Card,607.0,4.0,8,No Return,High
+472,29,Female,16203,College,East,Regular,rare,4477,Beauty,0,8.0,College,85,26/3/2023,Cash,840.0,105.0,3,Returned,High
+473,24,Male,8344,HighSchool,North,Regular,frequent,3133,Clothing,1,4.0,HighSchool,105,15/4/2023,PayPal,298.0,128.0,9,No Return,Low
+474,29,Male,43928,Masters,West,Regular,rare,13736,Food,1,5.0,Masters,450,25/3/2024,Cash,838.0,59.0,5,No Return,Neutral
+475,29,Female,26969,Masters,North,Silver,frequent,10298,Food,0,5.0,Masters,417,21/2/2024,Debit Card,113.0,185.0,1,No Return,Neutral
+476,31,Male,6618,HighSchool,North,Silver,occasional,2092,Health,0,6.0,HighSchool,290,17/10/2023,Debit Card,387.0,129.0,1,Returned,High
+477,38,Male,17333,HighSchool,West,Silver,occasional,6088,Electronics,0,5.0,HighSchool,590,12/8/2024,Debit Card,393.0,94.0,7,No Return,Neutral
+479,32,Male,9268,Bachelor,East,Silver,rare,3659,Electronics,0,5.0,Bachelor,555,08/7/2024,Cash,122.0,181.0,9,No Return,Neutral
+480,29,Male,32178,Bachelor,East,Regular,occasional,11464,Books,0,6.0,Bachelor,247,04/9/2023,Debit Card,915.0,167.0,1,No Return,High
+481,30,Male,46104,HighSchool,North,Regular,rare,14646,Food,0,4.0,HighSchool,665,26/10/2024,PayPal,612.0,51.0,5,No Return,Low
+482,31,Female,16475,Masters,West,Regular,rare,5505,Clothing,1,6.0,Masters,220,08/8/2023,Cash,943.0,174.0,2,No Return,High
+484,31,Male,17039,College,South,Silver,frequent,5431,Home,0,5.0,College,331,27/11/2023,PayPal,98.0,172.0,7,No Return,Neutral
+485,33,Male,18159,College,North,Regular,occasional,4519,Electronics,0,6.0,College,636,27/9/2024,PayPal,415.0,107.0,6,No Return,High
+486,33,Female,25791,Bachelor,West,Silver,rare,8579,Clothing,1,5.0,Bachelor,259,16/9/2023,PayPal,97.0,66.0,4,Returned,Neutral
+487,34,Male,34277,Bachelor,South,Regular,frequent,11516,Home,1,5.0,Bachelor,483,27/4/2024,Credit Card,257.0,130.0,3,Returned,Neutral
+489,37,Female,39807,HighSchool,South,Regular,frequent,13585,Health,0,4.0,HighSchool,643,04/10/2024,Credit Card,129.0,90.0,3,No Return,Low
+490,28,Male,5111,Bachelor,East,Regular,rare,1428,Clothing,1,4.0,Bachelor,48,17/2/2023,PayPal,764.0,191.0,7,No Return,Low
+492,36,Female,19323,College,West,Regular,frequent,8726,Electronics,0,6.0,College,395,30/1/2024,Debit Card,447.0,61.0,9,Returned,High
+493,36,Male,21655,College,North,Regular,occasional,7519,Food,0,4.0,College,319,15/11/2023,Debit Card,737.0,36.0,4,No Return,Low
+494,25,Female,9419,College,South,Regular,frequent,3454,Health,1,5.0,College,67,08/3/2023,Debit Card,927.0,198.0,7,No Return,Neutral
+495,26,Male,16292,College,East,Regular,occasional,5955,Books,0,6.0,College,142,22/5/2023,Debit Card,929.0,79.0,5,No Return,High
+496,24,Female,21305,College,South,Silver,frequent,11233,Electronics,0,6.0,College,93,03/4/2023,PayPal,612.0,136.0,6,No Return,High
+497,31,Female,46326,Bachelor,South,Regular,rare,17296,Food,1,5.0,Bachelor,230,18/8/2023,PayPal,772.0,161.0,9,No Return,Neutral
+498,31,Female,6952,Bachelor,West,Silver,occasional,2495,Electronics,0,5.0,Bachelor,139,19/5/2023,Cash,172.0,88.0,5,No Return,Neutral
+499,32,Male,44292,College,East,Regular,frequent,13592,Beauty,0,6.0,College,364,30/12/2023,Debit Card,749.0,88.0,7,No Return,High
+500,32,Male,42736,College,East,Regular,occasional,16169,Clothing,1,4.0,College,121,01/5/2023,Debit Card,994.0,102.0,8,No Return,Low
+501,27,Female,39836,HighSchool,South,Regular,occasional,15234,Books,0,5.0,HighSchool,497,11/5/2024,PayPal,846.0,110.0,8,No Return,Neutral
+503,35,Female,46536,Bachelor,West,Regular,occasional,11987,Electronics,0,5.0,Bachelor,640,01/10/2024,Credit Card,436.0,9.0,8,Returned,Neutral
+504,33,Female,6816,HighSchool,East,Regular,rare,1922,Electronics,0,5.0,HighSchool,718,18/12/2024,Debit Card,267.0,21.0,5,No Return,Neutral
+505,23,Male,42927,HighSchool,West,Regular,rare,17164,Food,0,6.0,HighSchool,371,06/1/2024,Debit Card,738.0,108.0,3,No Return,High
+506,30,Female,10310,Masters,West,Regular,occasional,3808,Clothing,1,6.0,Masters,471,15/4/2024,Debit Card,657.0,145.0,6,No Return,High
+507,26,Male,35084,College,West,Silver,rare,11540,Books,0,6.0,College,352,18/12/2023,Debit Card,412.0,136.0,7,No Return,High
+508,21,Female,12974,College,South,Regular,occasional,4733,Health,1,3.0,College,320,16/11/2023,Cash,224.0,121.0,9,Returned,Low
+509,31,Male,9851,HighSchool,West,Regular,rare,3368,Clothing,0,6.0,HighSchool,699,29/11/2024,Credit Card,35.0,21.0,3,No Return,High
+510,30,Female,21657,College,East,Regular,rare,7421,Food,0,5.0,College,344,10/12/2023,PayPal,595.0,70.0,7,No Return,Neutral
+511,30,Female,35320,HighSchool,South,Regular,occasional,11775,Electronics,0,4.0,HighSchool,634,25/9/2024,Cash,712.0,62.0,5,No Return,Low
+512,31,Male,5130,Masters,East,Regular,rare,1953,Electronics,1,3.0,Masters,172,21/6/2023,Credit Card,215.0,17.0,7,No Return,Low
+513,34,Male,8479,College,South,Regular,occasional,3011,Clothing,0,4.0,College,517,31/5/2024,Debit Card,774.0,157.0,1,No Return,Low
+515,27,Female,15649,Masters,West,Silver,occasional,3788,Electronics,1,5.0,Masters,49,18/2/2023,Debit Card,863.0,48.0,7,No Return,Neutral
+516,27,Female,20603,Bachelor,West,Silver,rare,5206,Clothing,0,5.0,Bachelor,404,08/2/2024,Credit Card,255.0,92.0,3,No Return,Neutral
+517,29,Female,40848,Bachelor,North,Silver,frequent,10565,Electronics,0,7.0,Bachelor,141,21/5/2023,Cash,966.0,144.0,6,No Return,High
+519,25,Male,33236,Bachelor,South,Silver,frequent,10740,Clothing,1,6.0,Bachelor,361,27/12/2023,Cash,670.0,157.0,2,No Return,High
+520,29,Female,24623,HighSchool,South,Regular,rare,8739,Books,0,4.0,HighSchool,392,27/1/2024,Cash,415.0,49.0,2,No Return,Low
+523,27,Male,44033,College,West,Regular,frequent,10307,Books,0,4.0,College,533,16/6/2024,Debit Card,645.0,27.0,2,No Return,Low
+524,29,Male,40540,College,West,Regular,rare,11876,Books,0,6.0,College,674,04/11/2024,Cash,25.0,193.0,3,Returned,High
+525,35,Female,25190,College,West,Silver,rare,6802,Food,0,7.0,College,101,11/4/2023,Debit Card,579.0,92.0,6,No Return,High
+526,32,Male,21555,College,South,Silver,rare,7049,Health,1,6.0,College,603,25/8/2024,PayPal,344.0,98.0,2,No Return,High
+531,33,Female,7241,College,East,Regular,rare,2328,Clothing,1,4.0,College,474,18/4/2024,Debit Card,564.0,127.0,6,No Return,Low
+532,28,Female,20208,Masters,West,Silver,occasional,6242,Clothing,0,4.0,Masters,291,18/10/2023,Debit Card,90.0,134.0,9,Returned,Low
+536,34,Male,5031,College,West,Regular,rare,1757,Clothing,1,4.0,College,104,14/4/2023,Debit Card,639.0,171.0,5,Returned,Low
+538,32,Male,45482,College,North,Silver,frequent,20031,Books,0,6.0,College,707,07/12/2024,PayPal,700.0,92.0,9,No Return,High
+539,27,Male,44697,College,East,Regular,rare,14199,Electronics,1,4.0,College,12,12/1/2023,Debit Card,741.0,34.0,7,No Return,Low
+541,29,Male,28375,Bachelor,West,Regular,rare,8451,Clothing,0,5.0,Bachelor,255,12/9/2023,Cash,517.0,193.0,4,No Return,Neutral
+542,28,Male,38152,College,West,Regular,frequent,11452,Food,0,3.0,College,529,12/6/2024,Debit Card,75.0,181.0,3,Returned,Low
+544,25,Female,21735,Bachelor,South,Regular,occasional,5838,Books,0,5.0,Bachelor,94,04/4/2023,Cash,13.0,99.0,9,No Return,Neutral
+545,34,Male,11312,Masters,West,Regular,rare,3315,Clothing,1,5.0,Masters,337,03/12/2023,Cash,270.0,38.0,8,No Return,Neutral
+546,34,Female,17683,Bachelor,South,Gold,rare,6677,Health,1,5.0,Bachelor,673,03/11/2024,PayPal,530.0,197.0,2,Returned,Neutral
+547,25,Male,18518,College,North,Regular,frequent,6304,Clothing,1,6.0,College,646,07/10/2024,Debit Card,449.0,189.0,3,No Return,High
+548,33,Male,9405,HighSchool,West,Regular,rare,3260,Health,0,4.0,HighSchool,10,10/1/2023,Cash,129.0,52.0,5,No Return,Low
+549,41,Female,9837,Bachelor,East,Silver,occasional,3456,Beauty,0,6.0,Bachelor,681,11/11/2024,Debit Card,755.0,107.0,7,Returned,High
+551,34,Male,6411,Masters,North,Regular,frequent,2344,Food,0,3.0,Masters,285,12/10/2023,Credit Card,377.0,78.0,5,No Return,Low
+552,27,Male,22415,College,South,Silver,rare,7696,Clothing,0,5.0,College,438,13/3/2024,PayPal,344.0,188.0,1,No Return,Neutral
+553,35,Male,36339,Masters,West,Silver,frequent,12475,Clothing,1,3.0,Masters,503,17/5/2024,Credit Card,104.0,169.0,7,No Return,Low
+554,31,Male,17583,HighSchool,West,Regular,rare,6960,Electronics,0,5.0,HighSchool,52,21/2/2023,Cash,658.0,167.0,9,No Return,Neutral
+555,37,Female,34278,Bachelor,West,Silver,frequent,8517,Electronics,1,4.0,Bachelor,286,13/10/2023,Cash,995.0,48.0,3,No Return,Low
+556,23,Male,29604,Bachelor,West,Regular,occasional,8160,Electronics,0,5.0,Bachelor,177,26/6/2023,Debit Card,258.0,29.0,9,No Return,Neutral
+559,29,Male,17411,College,West,Silver,rare,5330,Beauty,1,6.0,College,415,19/2/2024,Debit Card,108.0,159.0,2,No Return,High
+560,27,Male,34014,Bachelor,West,Silver,occasional,11086,Electronics,0,5.0,Bachelor,321,17/11/2023,Debit Card,950.0,129.0,2,No Return,Neutral
+561,26,Female,10950,Bachelor,East,Regular,occasional,4169,Electronics,0,5.0,Bachelor,428,03/3/2024,Cash,971.0,153.0,7,No Return,Neutral
+563,25,Female,27835,College,East,Gold,rare,8044,Electronics,0,6.0,College,413,17/2/2024,Credit Card,438.0,102.0,6,No Return,High
+564,37,Female,42899,Bachelor,South,Silver,rare,15171,Food,1,4.0,Bachelor,488,02/5/2024,PayPal,375.0,152.0,1,No Return,Low
+565,25,Male,38218,Bachelor,East,Silver,frequent,12888,Books,1,4.0,Bachelor,627,18/9/2024,Credit Card,169.0,68.0,2,No Return,Low
+566,30,Female,19596,Masters,North,Regular,rare,5857,Clothing,1,4.0,Masters,452,27/3/2024,Cash,922.0,173.0,1,Returned,Low
+567,32,Female,27843,Masters,North,Regular,rare,10807,Clothing,0,5.0,Masters,740,09/1/2025,Cash,804.0,72.0,6,No Return,Neutral
+568,33,Male,48987,HighSchool,North,Regular,rare,20849,Electronics,1,5.0,HighSchool,41,10/2/2023,Cash,438.0,99.0,7,No Return,Neutral
+569,29,Male,30942,Masters,North,Regular,rare,11700,Clothing,0,6.0,Masters,181,30/6/2023,Debit Card,713.0,140.0,6,No Return,High
+572,23,Female,10874,College,East,Regular,rare,2741,Beauty,0,4.0,College,162,11/6/2023,PayPal,881.0,184.0,4,No Return,Low
+573,27,Male,8906,Masters,East,Gold,frequent,3783,Electronics,1,4.0,Masters,287,14/10/2023,Credit Card,32.0,109.0,8,No Return,Low
+574,31,Female,10743,College,East,Regular,rare,4067,Food,0,4.0,College,724,24/12/2024,Credit Card,517.0,184.0,6,No Return,Low
+575,28,Male,16787,College,West,Regular,frequent,6203,Books,0,5.0,College,524,07/6/2024,PayPal,673.0,106.0,8,No Return,Neutral
+577,33,Male,8571,Masters,East,Regular,rare,2711,Electronics,1,6.0,Masters,262,19/9/2023,PayPal,50.0,147.0,2,No Return,High
+578,30,Male,38221,College,South,Regular,occasional,9829,Health,0,6.0,College,629,20/9/2024,PayPal,266.0,161.0,2,No Return,High
+579,23,Male,44824,College,West,Regular,rare,12727,Food,1,4.0,College,534,17/6/2024,PayPal,808.0,87.0,9,Returned,Low
+580,30,Male,39617,College,West,Regular,rare,13761,Health,0,4.0,College,196,15/7/2023,Cash,676.0,72.0,3,No Return,Low
+581,29,Female,29554,Bachelor,North,Regular,frequent,7371,Electronics,0,5.0,Bachelor,340,06/12/2023,PayPal,843.0,69.0,6,No Return,Neutral
+582,30,Male,19501,HighSchool,West,Regular,rare,6179,Clothing,0,5.0,HighSchool,271,28/9/2023,Credit Card,834.0,199.0,6,Returned,Neutral
+584,32,Female,38127,HighSchool,North,Regular,occasional,17865,Books,0,4.0,HighSchool,420,24/2/2024,PayPal,636.0,156.0,8,No Return,Low
+585,25,Female,37318,Bachelor,North,Regular,occasional,12215,Electronics,0,6.0,Bachelor,357,23/12/2023,PayPal,669.0,39.0,2,No Return,High
+588,26,Male,21992,Bachelor,North,Gold,frequent,8152,Electronics,0,5.0,Bachelor,348,14/12/2023,PayPal,634.0,159.0,2,No Return,Neutral
+589,33,Female,49958,Masters,West,Regular,rare,20542,Clothing,0,6.0,Masters,269,26/9/2023,Debit Card,620.0,28.0,3,No Return,High
+590,24,Male,40354,College,West,Regular,frequent,14813,Books,0,6.0,College,745,14/1/2025,Cash,491.0,1850.0,3,No Return,High
+591,17,Male,26406,College,South,Regular,frequent,9092,Electronics,1,5.0,College,90,31/3/2023,Credit Card,425.0,8.0,1,No Return,Neutral
+592,32,Female,15026,College,South,Regular,rare,6028,Books,0,6.0,College,157,06/6/2023,Credit Card,338.0,22.0,4,No Return,High
+594,29,Female,18211,College,South,Regular,rare,5410,Clothing,1,4.0,College,667,28/10/2024,Debit Card,122.0,138.0,8,No Return,Low
+595,32,Male,7316,Bachelor,East,Regular,frequent,2182,Food,1,3.0,Bachelor,397,01/2/2024,Credit Card,704.0,0.0,6,No Return,Low
+596,25,Female,37835,Bachelor,West,Silver,rare,12953,Electronics,0,5.0,Bachelor,584,06/8/2024,PayPal,467.0,81.0,3,No Return,Neutral
+597,29,Male,6698,Bachelor,East,Regular,occasional,2032,Clothing,0,6.0,Bachelor,144,24/5/2023,Debit Card,182.0,81.0,2,Returned,High
+598,21,Female,29479,Bachelor,South,Silver,rare,11012,Electronics,1,4.0,Bachelor,376,11/1/2024,Cash,496.0,40.0,6,No Return,Low
+600,38,Male,23475,College,East,Regular,occasional,7913,Food,0,4.0,College,368,03/1/2024,Cash,900.0,99.0,9,No Return,Low
+601,35,Male,35255,Bachelor,North,Regular,occasional,13722,Home,0,5.0,Bachelor,728,28/12/2024,Cash,590.0,176.0,3,No Return,Neutral
+604,23,Female,22690,HighSchool,East,Regular,frequent,9471,Health,0,7.0,HighSchool,475,19/4/2024,PayPal,712.0,96.0,2,No Return,High
+605,34,Female,38897,College,East,Silver,frequent,12326,Books,0,6.0,College,71,12/3/2023,Debit Card,18.0,7.0,6,No Return,High
+608,24,Male,45466,Masters,East,Silver,frequent,15650,Electronics,1,4.0,Masters,401,05/2/2024,Cash,219.0,48.0,5,No Return,Low
+613,38,Male,24023,College,South,Regular,rare,8939,Health,0,4.0,College,618,09/9/2024,Credit Card,57.0,172.0,9,No Return,Low
+614,30,Female,27743,Bachelor,East,Regular,rare,10457,Home,1,4.0,Bachelor,3,03/1/2023,PayPal,815.0,56.0,6,Returned,Low
+615,35,Female,46817,HighSchool,North,Regular,occasional,14156,Electronics,1,6.0,HighSchool,530,13/6/2024,Cash,892.0,182.0,2,No Return,High
+616,18,Male,24666,HighSchool,East,Regular,rare,8908,Books,0,4.0,HighSchool,330,26/11/2023,Cash,791.0,165.0,4,No Return,Low
+617,28,Female,46747,HighSchool,North,Regular,rare,19859,Health,0,5.0,HighSchool,58,27/2/2023,Cash,768.0,68.0,3,No Return,Neutral
+618,27,Female,36968,HighSchool,East,Gold,rare,14375,Books,0,3.0,HighSchool,641,02/10/2024,Credit Card,205.0,83.0,9,No Return,Low
+619,25,Female,10929,Masters,East,Silver,occasional,3902,Food,1,4.0,Masters,145,25/5/2023,Debit Card,675.0,199.0,5,No Return,Low
+620,37,Male,29071,Bachelor,East,Silver,occasional,9818,Electronics,1,4.0,Bachelor,185,04/7/2023,PayPal,135.0,95.0,9,Returned,Low
+621,24,Female,26988,Masters,East,Regular,rare,9491,Clothing,0,4.0,Masters,128,08/5/2023,Credit Card,89.0,157.0,8,No Return,Low
+622,31,Male,26912,College,North,Gold,frequent,10338,Home,0,4.0,College,69,10/3/2023,PayPal,687.0,191.0,8,No Return,Low
+623,34,Female,33008,HighSchool,West,Regular,rare,10484,Books,0,5.0,HighSchool,103,13/4/2023,Cash,148.0,190.0,6,No Return,Neutral
+624,31,Female,40164,Masters,East,Regular,rare,14138,Electronics,0,5.0,Masters,280,07/10/2023,Cash,28.0,161.0,8,No Return,Neutral
+625,26,Male,6402,HighSchool,South,Regular,frequent,2171,Beauty,0,4.0,HighSchool,445,20/3/2024,Credit Card,420.0,33.0,7,No Return,Low
+626,34,Male,35647,Bachelor,South,Regular,rare,17300,Food,0,5.0,Bachelor,478,22/4/2024,PayPal,80.0,155.0,8,No Return,Neutral
+627,31,Female,18740,College,North,Silver,rare,8130,Electronics,1,4.0,College,459,03/4/2024,Cash,938.0,12.0,6,No Return,Low
+628,25,Male,37252,Bachelor,North,Regular,rare,11746,Books,0,5.0,Bachelor,750,19/1/2025,PayPal,558.0,53.0,6,No Return,Neutral
+630,39,Male,29034,HighSchool,East,Silver,rare,6097,Clothing,1,6.0,HighSchool,609,31/8/2024,PayPal,326.0,38.0,6,No Return,High
+631,27,Female,47202,Bachelor,North,Regular,occasional,18644,Electronics,0,6.0,Bachelor,236,24/8/2023,Cash,184.0,37.0,7,No Return,High
+632,22,Female,49260,Bachelor,North,Regular,occasional,15880,Books,0,6.0,Bachelor,721,21/12/2024,Cash,604.0,157.0,8,No Return,High
+633,32,Female,47225,College,South,Gold,frequent,17901,Electronics,0,5.0,College,685,15/11/2024,Credit Card,498.0,135.0,1,No Return,Neutral
+634,31,Male,45642,Bachelor,North,Silver,rare,17744,Books,0,6.0,Bachelor,666,27/10/2024,Cash,36.0,125.0,4,No Return,High
+636,21,Male,19689,College,East,Regular,frequent,7217,Electronics,0,4.0,College,194,13/7/2023,Cash,218.0,86.0,1,No Return,Low
+637,29,Male,48086,College,North,Regular,rare,16224,Clothing,0,6.0,College,578,31/7/2024,PayPal,611.0,173.0,9,No Return,High
+640,28,Male,41414,HighSchool,East,Regular,frequent,13453,Clothing,1,5.0,HighSchool,35,04/2/2023,Cash,680.0,148.0,9,No Return,Neutral
+641,26,Male,26575,Bachelor,North,Silver,occasional,7515,Electronics,1,5.0,Bachelor,9,09/1/2023,Cash,797.0,177.0,6,No Return,Neutral
+643,31,Male,18703,College,North,Regular,occasional,6078,Books,0,4.0,College,96,06/4/2023,Cash,449.0,159.0,7,No Return,Low
+644,33,Female,18219,College,South,Silver,rare,5370,Clothing,0,4.0,College,694,24/11/2024,Cash,665.0,19.0,9,No Return,Low
+645,28,Female,45880,College,South,Regular,rare,19632,Clothing,1,6.0,College,570,23/7/2024,Cash,539.0,161.0,4,Returned,High
+646,34,Male,39896,Bachelor,East,Silver,rare,10534,Clothing,0,5.0,Bachelor,130,10/5/2023,Cash,884.0,158.0,4,No Return,Neutral
+647,26,Female,14946,HighSchool,West,Regular,rare,5690,Beauty,0,5.0,HighSchool,303,30/10/2023,Debit Card,308.0,118.0,6,No Return,Neutral
+648,29,Male,9086,Masters,East,Silver,occasional,3271,Health,1,5.0,Masters,378,13/1/2024,Debit Card,926.0,59.0,4,No Return,Neutral
+649,33,Female,28585,Bachelor,South,Regular,frequent,8744,Clothing,0,6.0,Bachelor,628,19/9/2024,Credit Card,719.0,29.0,8,No Return,High
+650,34,Male,13524,HighSchool,South,Silver,rare,3097,Electronics,0,4.0,HighSchool,472,16/4/2024,Cash,44.0,35.0,6,No Return,Low
+651,21,Male,35382,College,South,Silver,occasional,12742,Electronics,0,5.0,College,359,25/12/2023,Debit Card,761.0,165.0,5,No Return,Neutral
+652,30,Female,41801,College,North,Regular,frequent,17184,Books,0,7.0,College,726,26/12/2024,PayPal,631.0,189.0,8,No Return,High
+653,33,Female,42459,Bachelor,South,Silver,frequent,15318,Clothing,1,7.0,Bachelor,346,12/12/2023,PayPal,105.0,133.0,1,No Return,High
+654,24,Female,35390,College,West,Regular,occasional,10820,Electronics,0,4.0,College,77,18/3/2023,Credit Card,988.0,199.0,4,No Return,Low
+655,32,Female,44906,Bachelor,West,Regular,rare,15355,Clothing,1,5.0,Bachelor,547,30/6/2024,Cash,217.0,,4,No Return,Neutral
+659,33,Female,23401,HighSchool,West,Gold,rare,7136,Clothing,1,6.0,HighSchool,16,16/1/2023,PayPal,74.0,173.0,6,No Return,High
+660,31,Male,23410,Bachelor,East,Regular,frequent,8771,Electronics,1,5.0,Bachelor,622,13/9/2024,Credit Card,91.0,154.0,5,No Return,Neutral
+662,36,Male,35288,College,West,Regular,frequent,13495,Electronics,0,5.0,College,703,03/12/2024,PayPal,949.0,59.0,1,No Return,Neutral
+663,39,Male,38800,Bachelor,South,Silver,rare,12438,Electronics,0,4.0,Bachelor,33,02/2/2023,PayPal,784.0,15.0,5,No Return,Low
+665,20,Female,12912,HighSchool,West,Regular,rare,4895,Food,1,5.0,HighSchool,217,05/8/2023,Cash,427.0,111.0,4,No Return,Neutral
+666,30,Male,40105,Bachelor,East,Regular,rare,12260,Food,0,5.0,Bachelor,158,07/6/2023,Cash,343.0,146.0,2,No Return,Neutral
+667,31,Male,11087,College,South,Regular,occasional,3764,Food,0,4.0,College,501,15/5/2024,Cash,478.0,172.0,5,No Return,Low
+669,33,Male,32277,College,South,Silver,rare,9357,Electronics,0,4.0,College,457,01/4/2024,Debit Card,53.0,175.0,3,No Return,Low
+670,35,Male,47016,College,East,Regular,frequent,15901,Home,0,5.0,College,15,15/1/2023,Cash,396.0,142.0,7,No Return,Neutral
+671,28,Male,7120,HighSchool,West,Regular,occasional,2900,Books,0,4.0,HighSchool,207,26/7/2023,Credit Card,837.0,177.0,7,No Return,Low
+675,30,Male,6137,College,East,Regular,frequent,1953,Food,0,4.0,College,441,16/3/2024,Cash,455.0,57.0,1,No Return,Low
+677,25,Male,14760,Bachelor,West,Regular,rare,5459,Food,0,6.0,Bachelor,380,15/1/2024,Cash,66.0,41.0,3,No Return,High
+678,24,Male,43204,Bachelor,East,Silver,rare,18576,Electronics,0,4.0,Bachelor,190,09/7/2023,Cash,490.0,23.0,4,No Return,Low
+680,27,Female,16760,Masters,North,Regular,rare,5438,Health,0,5.0,Masters,208,27/7/2023,Debit Card,363.0,197.0,6,No Return,Neutral
+683,27,Female,43023,HighSchool,North,Regular,occasional,13484,Clothing,0,3.0,HighSchool,50,19/2/2023,Cash,754.0,71.0,9,No Return,Low
+684,26,Male,45920,College,East,Silver,rare,18511,Clothing,1,5.0,College,741,10/1/2025,Debit Card,554.0,34.0,9,No Return,Neutral
+685,25,Male,16957,Bachelor,East,Silver,frequent,5436,Books,0,6.0,Bachelor,719,19/12/2024,Cash,877.0,162.0,8,No Return,High
+686,28,Female,24934,HighSchool,South,Silver,rare,7868,Beauty,0,4.0,HighSchool,120,30/4/2023,Cash,175.0,26.0,6,No Return,Low
+687,29,Male,8854,Bachelor,South,Silver,frequent,3467,Clothing,0,5.0,Bachelor,312,08/11/2023,Credit Card,552.0,199.0,9,No Return,Neutral
+689,29,Female,16218,Masters,West,Regular,occasional,6422,Electronics,1,5.0,Masters,222,10/8/2023,PayPal,183.0,159.0,4,No Return,Neutral
+690,21,Male,29916,HighSchool,East,Silver,occasional,10995,Books,0,4.0,HighSchool,106,16/4/2023,Cash,867.0,194.0,4,No Return,Low
+691,30,Female,44257,College,South,Silver,rare,13964,Electronics,1,4.0,College,502,16/5/2024,Debit Card,331.0,70.0,1,No Return,Low
+693,35,Male,47061,College,East,Regular,occasional,16856,Food,0,6.0,College,683,13/11/2024,Cash,795.0,183.0,3,No Return,High
+696,41,Female,6470,HighSchool,North,Silver,occasional,2139,Clothing,0,5.0,HighSchool,426,01/3/2024,PayPal,774.0,71.0,5,Returned,Neutral
+697,29,Male,19653,Bachelor,West,Gold,rare,5744,Clothing,1,4.0,Bachelor,251,08/9/2023,Credit Card,639.0,113.0,7,No Return,Low
+698,30,Male,36308,College,East,Regular,occasional,14412,Electronics,0,6.0,College,228,16/8/2023,Debit Card,815.0,71.0,7,No Return,High
+699,32,Female,32906,HighSchool,East,Silver,rare,12277,Electronics,0,4.0,HighSchool,333,29/11/2023,Debit Card,424.0,56.0,4,No Return,Low
+700,23,Female,45118,HighSchool,North,Silver,occasional,15799,Home,0,4.0,HighSchool,493,07/5/2024,PayPal,995.0,60.0,6,No Return,Low
+701,27,Female,19299,Bachelor,East,Regular,occasional,6510,Health,0,5.0,Bachelor,513,27/5/2024,Cash,804.0,84.0,2,No Return,Neutral
+702,23,Male,6557,College,East,Silver,frequent,2345,Electronics,0,7.0,College,254,11/9/2023,PayPal,443.0,192.0,6,No Return,High
+703,27,Male,32302,Bachelor,West,Silver,rare,10554,Food,0,4.0,Bachelor,496,10/5/2024,PayPal,825.0,2.0,8,No Return,Low
+704,31,Male,37660,College,South,Regular,occasional,12688,Clothing,1,5.0,College,531,14/6/2024,Debit Card,984.0,109.0,4,Returned,Neutral
+705,24,Female,46616,Masters,North,Gold,occasional,16470,Books,0,6.0,Masters,702,02/12/2024,Credit Card,883.0,151.0,8,No Return,High
+706,33,Female,13193,College,West,Regular,rare,4106,Electronics,0,7.0,College,292,19/10/2023,PayPal,435.0,82.0,1,No Return,High
+708,26,Female,38310,HighSchool,West,Regular,occasional,10104,Food,0,5.0,HighSchool,377,12/1/2024,Cash,381.0,146.0,2,No Return,Neutral
+709,31,Female,7832,HighSchool,North,Gold,rare,2375,Food,1,5.0,HighSchool,294,21/10/2023,Cash,94.0,156.0,2,No Return,Neutral
+711,35,Male,27384,College,East,Regular,rare,7957,Electronics,0,4.0,College,171,20/6/2023,Credit Card,856.0,107.0,4,No Return,Low
+712,29,Female,15123,Masters,South,Regular,rare,5785,Books,0,7.0,Masters,476,20/4/2024,PayPal,854.0,99.0,8,No Return,High
+713,30,Female,23450,HighSchool,South,Silver,occasional,7624,Electronics,1,4.0,HighSchool,260,17/9/2023,Debit Card,707.0,95.0,4,No Return,Low
+714,30,Female,19528,Bachelor,South,Regular,rare,6651,Health,0,5.0,Bachelor,76,17/3/2023,Debit Card,334.0,64.0,7,No Return,Neutral
+716,35,Female,49564,Bachelor,South,Silver,frequent,15568,Clothing,0,4.0,Bachelor,325,21/11/2023,PayPal,700.0,147.0,6,No Return,Low
+718,29,Female,7510,College,North,Regular,rare,2385,Clothing,0,5.0,College,539,22/6/2024,Debit Card,83.0,,8,No Return,Neutral
+719,32,Male,47700,Masters,East,Regular,frequent,15872,Food,1,6.0,Masters,595,17/8/2024,Debit Card,966.0,60.0,5,No Return,High
+720,32,Male,42084,Bachelor,East,Regular,frequent,20153,Clothing,1,4.0,Bachelor,75,16/3/2023,PayPal,289.0,197.0,9,No Return,Low
+721,25,Female,42521,Bachelor,South,Regular,frequent,16182,Clothing,0,6.0,Bachelor,419,23/2/2024,PayPal,467.0,110.0,1,No Return,High
+723,33,Male,20072,Masters,East,Regular,rare,7780,Clothing,0,6.0,Masters,239,27/8/2023,Debit Card,535.0,166.0,9,No Return,High
+725,30,Male,46161,College,East,Silver,rare,11850,Clothing,0,6.0,College,273,30/9/2023,Debit Card,26.0,82.0,8,No Return,High
+726,31,Female,38962,Bachelor,East,Silver,rare,12800,Books,1,6.0,Bachelor,313,09/11/2023,Cash,134.0,163.0,7,Returned,High
+727,33,Male,29312,HighSchool,West,Silver,rare,8172,Books,0,5.0,HighSchool,2,02/1/2023,Cash,193.0,112.0,1,Returned,Neutral
+728,31,Male,5187,Masters,West,Regular,rare,1797,Books,0,5.0,Masters,263,20/9/2023,PayPal,163.0,190.0,9,No Return,Neutral
+730,34,Male,24915,HighSchool,North,Silver,frequent,9712,Books,1,4.0,HighSchool,650,11/10/2024,Debit Card,637.0,118.0,8,No Return,Low
+732,34,Female,31775,Bachelor,South,Silver,rare,10103,Home,0,5.0,Bachelor,164,13/6/2023,Debit Card,255.0,29.0,1,No Return,Neutral
+736,32,Male,49039,College,South,Silver,frequent,17328,Clothing,0,7.0,College,355,21/12/2023,PayPal,732.0,114.0,8,No Return,High
+737,33,Female,10544,College,East,Silver,rare,3803,Food,0,5.0,College,298,25/10/2023,PayPal,151.0,42.0,9,No Return,Neutral
+738,30,Male,16067,Masters,East,Regular,frequent,5436,Health,1,7.0,Masters,490,04/5/2024,Debit Card,291.0,181.0,3,No Return,High
+739,30,Male,12401,Masters,North,Regular,rare,4614,Books,0,4.0,Masters,507,21/5/2024,Debit Card,780.0,198.0,6,No Return,Low
+740,35,Male,34154,HighSchool,West,Silver,occasional,14201,Electronics,0,5.0,HighSchool,199,18/7/2023,PayPal,771.0,195.0,7,No Return,Neutral
+741,33,Male,35891,College,West,Regular,frequent,10181,Electronics,0,5.0,College,612,03/9/2024,Debit Card,184.0,32.0,4,No Return,Neutral
+742,34,Male,35731,HighSchool,South,Silver,occasional,14883,Food,1,6.0,HighSchool,360,26/12/2023,PayPal,135.0,130.0,3,No Return,High
+744,33,Female,23164,Bachelor,East,Silver,frequent,6760,Electronics,0,6.0,Bachelor,554,07/7/2024,Debit Card,542.0,170.0,3,No Return,High
+746,20,Male,32186,HighSchool,East,Gold,occasional,9975,Health,0,5.0,HighSchool,297,24/10/2023,Cash,683.0,65.0,2,No Return,Neutral
+747,42,Male,26907,Masters,East,Silver,rare,9004,Clothing,0,6.0,Masters,314,10/11/2023,Credit Card,53.0,169.0,5,No Return,High
+748,28,Male,15501,Bachelor,West,Regular,rare,5401,Food,0,5.0,Bachelor,468,12/4/2024,Credit Card,263.0,96.0,4,No Return,Neutral
+750,32,Male,37881,HighSchool,West,Regular,rare,15795,Electronics,0,6.0,HighSchool,80,21/3/2023,Credit Card,948.0,10.0,6,No Return,High
+751,37,Male,6827,College,West,Regular,occasional,2505,Books,0,5.0,College,444,19/3/2024,Debit Card,966.0,149.0,9,Returned,Neutral
+752,30,Male,42756,Masters,North,Silver,rare,13006,Electronics,0,3.0,Masters,688,18/11/2024,PayPal,221.0,125.0,1,No Return,Low
+755,29,Male,30154,HighSchool,East,Regular,rare,8902,Health,1,6.0,HighSchool,684,14/11/2024,Credit Card,952.0,176.0,6,No Return,High
+756,29,Female,41365,HighSchool,South,Silver,rare,16519,Books,0,5.0,HighSchool,231,19/8/2023,PayPal,653.0,14.0,6,No Return,Neutral
+757,35,Male,17341,HighSchool,West,Silver,occasional,6911,Electronics,0,3.0,HighSchool,64,05/3/2023,Cash,538.0,95.0,9,No Return,Low
+758,29,Female,10868,Bachelor,East,Regular,rare,4765,Clothing,0,6.0,Bachelor,423,27/2/2024,Credit Card,800.0,175.0,2,Returned,High
+759,21,Female,40376,Bachelor,West,Regular,frequent,15849,Clothing,0,3.0,Bachelor,505,19/5/2024,Credit Card,934.0,11.0,1,Returned,Low
+760,29,Female,17439,Bachelor,East,Regular,rare,6599,Electronics,1,5.0,Bachelor,576,29/7/2024,Debit Card,442.0,177.0,8,No Return,Neutral
+761,32,Male,14606,College,West,Regular,rare,5559,Health,1,6.0,College,89,30/3/2023,Credit Card,754.0,41.0,1,No Return,High
+763,33,Male,22639,Masters,West,Silver,rare,8760,Electronics,0,4.0,Masters,138,18/5/2023,Credit Card,111.0,189.0,2,No Return,Low
+765,32,Female,46374,College,East,Silver,rare,16457,Books,0,5.0,College,281,08/10/2023,Credit Card,351.0,32.0,8,Returned,Neutral
+766,34,Female,44109,College,South,Regular,frequent,17021,Food,1,6.0,College,66,07/3/2023,PayPal,843.0,147.0,9,No Return,High
+767,36,Male,24997,Bachelor,West,Regular,rare,7556,Food,0,3.0,Bachelor,326,22/11/2023,Credit Card,504.0,38.0,7,Returned,Low
+768,29,Female,28971,Masters,South,Silver,occasional,9722,Books,1,7.0,Masters,412,16/2/2024,Cash,80.0,149.0,7,No Return,High
+769,29,Female,11006,HighSchool,North,Regular,rare,3529,Electronics,1,6.0,HighSchool,299,26/10/2023,Debit Card,110.0,68.0,6,No Return,High
+771,23,Female,43022,Bachelor,East,Regular,occasional,15499,Books,1,6.0,Bachelor,706,06/12/2024,Credit Card,590.0,134.0,8,No Return,High
+772,28,Male,26736,College,West,Silver,occasional,8560,Electronics,1,6.0,College,644,05/10/2024,Debit Card,237.0,110.0,8,No Return,High
+773,32,Male,29060,College,East,Regular,rare,12450,Clothing,0,4.0,College,152,01/6/2023,PayPal,272.0,125.0,2,No Return,Low
+774,23,Female,29367,College,North,Silver,rare,9803,Books,0,4.0,College,47,16/2/2023,PayPal,250.0,135.0,3,No Return,Low
+775,31,Male,40709,Masters,South,Regular,rare,15282,Books,0,4.0,Masters,7,07/1/2023,PayPal,512.0,160.0,6,No Return,Low
+778,29,Female,31374,Bachelor,South,Silver,occasional,10984,Clothing,0,5.0,Bachelor,701,01/12/2024,Credit Card,506.0,33.0,1,No Return,Neutral
+779,32,Female,33298,College,South,Regular,occasional,10916,Clothing,0,6.0,College,135,15/5/2023,Credit Card,988.0,84.0,6,No Return,High
+780,29,Male,48123,Bachelor,West,Regular,occasional,13985,Food,1,4.0,Bachelor,543,26/6/2024,Credit Card,217.0,,9,No Return,Low
+781,34,Male,48365,HighSchool,East,Regular,rare,11280,Clothing,0,4.0,HighSchool,448,23/3/2024,Debit Card,373.0,164.0,2,No Return,Low
+782,34,Male,35758,Bachelor,East,Gold,occasional,14676,Electronics,0,4.0,Bachelor,652,13/10/2024,Debit Card,348.0,169.0,7,No Return,Low
+783,30,Female,47408,College,North,Silver,rare,15349,Clothing,0,5.0,College,463,07/4/2024,PayPal,743.0,110.0,2,No Return,Neutral
+784,25,Male,45039,Bachelor,West,Silver,rare,13308,Home,1,4.0,Bachelor,184,03/7/2023,Debit Card,142.0,9.0,5,Returned,Low
+785,24,Female,8675,Bachelor,South,Silver,occasional,2306,Clothing,1,3.0,Bachelor,8,08/1/2023,Cash,294.0,104.0,9,No Return,Low
+788,21,Male,46889,College,West,Regular,rare,14457,Beauty,0,6.0,College,506,20/5/2024,Debit Card,220.0,126.0,2,No Return,High
+789,22,Female,46079,HighSchool,South,Regular,rare,15975,Home,1,5.0,HighSchool,526,09/6/2024,PayPal,473.0,54.0,2,No Return,Neutral
+790,27,Female,49171,Bachelor,South,Silver,frequent,12862,Home,0,6.0,Bachelor,388,23/1/2024,Debit Card,316.0,41.0,7,No Return,High
+792,26,Female,36413,Masters,North,Regular,occasional,13613,Electronics,0,6.0,Masters,257,14/9/2023,Credit Card,21.0,88.0,8,No Return,High
+794,31,Male,25335,Masters,West,Regular,frequent,7619,Food,0,4.0,Masters,682,12/11/2024,PayPal,806.0,153.0,9,No Return,Low
+795,29,Male,14689,Bachelor,South,Gold,occasional,5665,Electronics,1,5.0,Bachelor,744,13/1/2025,Debit Card,739.0,137.0,9,Returned,Neutral
+796,34,Male,6012,Bachelor,North,Regular,occasional,2257,Clothing,1,5.0,Bachelor,536,19/6/2024,PayPal,408.0,186.0,9,No Return,Neutral
+797,32,Male,12702,Bachelor,North,Regular,rare,4730,Clothing,0,4.0,Bachelor,648,09/10/2024,PayPal,731.0,63.0,2,No Return,Low
+799,31,Female,27756,Bachelor,West,Regular,rare,8797,Electronics,0,4.0,Bachelor,700,30/11/2024,Debit Card,859.0,10.0,8,No Return,Low
+800,33,Male,21978,Masters,South,Regular,rare,8088,Clothing,0,5.0,Masters,342,08/12/2023,Credit Card,361.0,150.0,3,No Return,Neutral
+804,35,Male,6243,Bachelor,East,Regular,rare,2516,Clothing,0,5.0,Bachelor,657,18/10/2024,PayPal,266.0,92.0,4,No Return,Neutral
+805,31,Female,38370,HighSchool,West,Silver,rare,15312,Electronics,0,5.0,HighSchool,574,27/7/2024,Debit Card,272.0,6.0,8,No Return,Neutral
+807,30,Female,30447,Bachelor,South,Regular,occasional,8592,Electronics,0,5.0,Bachelor,370,05/1/2024,Credit Card,235.0,180.0,2,No Return,Neutral
+809,31,Male,37369,Masters,North,Regular,frequent,10671,Home,1,5.0,Masters,424,28/2/2024,Debit Card,168.0,185.0,6,No Return,Neutral
+810,29,Male,14016,HighSchool,East,Regular,rare,3990,Books,0,3.0,HighSchool,418,22/2/2024,Debit Card,692.0,67.0,8,No Return,Low
+812,23,Female,44147,College,West,Gold,rare,17125,Clothing,0,5.0,College,713,13/12/2024,Credit Card,36.0,5.0,9,No Return,Neutral
+813,30,Female,44874,College,North,Silver,frequent,13299,Clothing,1,6.0,College,592,14/8/2024,Credit Card,93.0,10.0,2,No Return,High
+814,31,Female,24299,College,East,Regular,rare,8469,Clothing,1,6.0,College,512,26/5/2024,Debit Card,297.0,120.0,4,No Return,High
+815,31,Male,29011,Bachelor,West,Gold,rare,10003,Health,1,4.0,Bachelor,455,30/3/2024,Debit Card,986.0,183.0,8,No Return,Low
+817,29,Female,28830,College,East,Regular,occasional,11892,Books,1,5.0,College,661,22/10/2024,Cash,376.0,34.0,8,Returned,Neutral
+818,35,Female,44984,Bachelor,West,Silver,rare,19629,Beauty,0,5.0,Bachelor,561,14/7/2024,Cash,262.0,11.0,6,No Return,Neutral
+819,26,Female,23435,College,South,Regular,rare,8277,Clothing,0,4.0,College,252,09/9/2023,PayPal,591.0,65.0,9,No Return,Low
+820,25,Female,21078,HighSchool,West,Regular,rare,8999,Electronics,0,4.0,HighSchool,116,26/4/2023,Debit Card,949.0,100.0,2,No Return,Low
+823,30,Male,26596,Bachelor,North,Regular,rare,8887,Clothing,0,2.0,Bachelor,653,14/10/2024,Debit Card,116.0,157.0,8,No Return,Low
+824,34,Male,46886,HighSchool,North,Regular,rare,15102,Beauty,0,4.0,HighSchool,432,07/3/2024,Cash,897.0,79.0,1,No Return,Low
+825,29,Male,37659,HighSchool,South,Gold,frequent,12880,Electronics,0,4.0,HighSchool,65,06/3/2023,Cash,771.0,83.0,8,No Return,Low
+826,27,Male,12593,Masters,West,Silver,rare,4888,Clothing,1,3.0,Masters,525,08/6/2024,Debit Card,490.0,18.0,9,No Return,Low
+827,28,Female,49401,Bachelor,West,Gold,rare,19827,Electronics,1,5.0,Bachelor,446,21/3/2024,Credit Card,895.0,49.0,3,No Return,Neutral
+828,22,Female,9477,Bachelor,South,Regular,occasional,2712,Clothing,0,5.0,Bachelor,123,03/5/2023,PayPal,519.0,63.0,1,No Return,Neutral
+829,25,Male,29244,College,West,Silver,rare,8411,Beauty,0,6.0,College,156,05/6/2023,Credit Card,786.0,194.0,5,No Return,High
+830,24,Female,47777,Bachelor,South,Gold,occasional,20754,Electronics,0,4.0,Bachelor,309,05/11/2023,PayPal,718.0,106.0,5,No Return,Low
+831,35,Female,30728,Bachelor,North,Regular,rare,8313,Health,0,4.0,Bachelor,460,04/4/2024,Debit Card,727.0,169.0,7,No Return,Low
+832,27,Female,9323,College,West,Regular,occasional,3109,Food,1,6.0,College,563,16/7/2024,PayPal,762.0,44.0,1,No Return,High
+833,34,Male,37790,Bachelor,East,Gold,rare,11381,Electronics,0,6.0,Bachelor,62,03/3/2023,Cash,293.0,154.0,5,No Return,High
+834,37,Male,46588,Bachelor,South,Regular,rare,17162,Electronics,0,6.0,Bachelor,509,23/5/2024,Debit Card,525.0,58.0,2,No Return,High
+836,31,Female,46894,Bachelor,North,Silver,rare,17131,Food,0,5.0,Bachelor,668,29/10/2024,Cash,725.0,143.0,9,No Return,Neutral
+837,22,Male,24649,Bachelor,East,Regular,rare,7611,Electronics,0,6.0,Bachelor,593,15/8/2024,Cash,973.0,124.0,7,No Return,High
+838,26,Male,28457,College,East,Gold,frequent,11288,Books,0,4.0,College,173,22/6/2023,PayPal,134.0,33.0,9,No Return,Low
+839,30,Male,44171,College,West,Silver,rare,13940,Food,0,5.0,College,398,02/2/2024,Credit Card,997.0,52.0,1,No Return,Neutral
+840,31,Female,39699,Bachelor,North,Silver,occasional,13264,Electronics,0,5.0,Bachelor,400,04/2/2024,Credit Card,184.0,76.0,7,No Return,Neutral
+841,27,Male,46611,College,North,Gold,occasional,14496,Home,0,6.0,College,647,08/10/2024,PayPal,121.0,42.0,8,No Return,High
+842,42,Female,11532,Bachelor,East,Silver,occasional,3933,Clothing,0,5.0,Bachelor,480,24/4/2024,Debit Card,378.0,7.0,2,No Return,Neutral
+843,28,Male,36817,College,North,Silver,frequent,16316,Food,1,4.0,College,32,01/2/2023,Debit Card,688.0,30.0,4,No Return,Low
+844,30,Female,46335,College,East,Regular,rare,17188,Health,0,3.0,College,125,05/5/2023,Credit Card,204.0,172.0,7,No Return,Low
+845,33,Female,20712,HighSchool,North,Regular,frequent,7036,Food,0,4.0,HighSchool,178,27/6/2023,Credit Card,756.0,11.0,8,No Return,Low
+846,30,Female,28084,HighSchool,West,Regular,occasional,9556,Books,0,6.0,HighSchool,630,21/9/2024,Credit Card,260.0,144.0,5,No Return,High
+847,27,Female,31914,HighSchool,West,Regular,frequent,11233,Health,1,4.0,HighSchool,227,15/8/2023,Cash,739.0,70.0,1,No Return,Low
+851,33,Male,15438,College,East,Silver,rare,5425,Food,0,5.0,College,734,03/1/2025,PayPal,830.0,197.0,5,No Return,Neutral
+852,30,Female,33242,Bachelor,South,Silver,occasional,11105,Health,0,5.0,Bachelor,619,10/9/2024,Cash,290.0,96.0,8,No Return,Neutral
+853,35,Female,13118,College,North,Regular,rare,5274,Electronics,0,5.0,College,680,10/11/2024,Cash,136.0,43.0,4,No Return,Neutral
+854,25,Female,23384,College,North,Gold,rare,8331,Clothing,0,6.0,College,663,24/10/2024,Debit Card,188.0,44.0,1,No Return,High
+855,40,Male,22807,Bachelor,East,Gold,occasional,9314,Electronics,0,5.0,Bachelor,296,23/10/2023,Cash,139.0,150.0,1,Returned,Neutral
+856,27,Male,16337,Bachelor,West,Regular,frequent,5855,Books,0,5.0,Bachelor,372,07/1/2024,Cash,300.0,29.0,6,No Return,Neutral
+857,23,Male,37047,Bachelor,North,Regular,rare,9823,Electronics,1,7.0,Bachelor,117,27/4/2023,Debit Card,653.0,184.0,6,No Return,High
+858,28,Male,30884,College,South,Regular,occasional,9131,Food,1,4.0,College,275,02/10/2023,Debit Card,549.0,169.0,8,No Return,Low
+859,31,Male,38034,Bachelor,North,Regular,occasional,14192,Food,0,4.0,Bachelor,87,28/3/2023,PayPal,342.0,70.0,6,No Return,Low
+860,37,Male,31128,HighSchool,East,Silver,frequent,11068,Clothing,0,5.0,HighSchool,431,06/3/2024,Credit Card,390.0,151.0,1,Returned,Neutral
+861,34,Male,9862,Bachelor,South,Gold,rare,3336,Electronics,0,5.0,Bachelor,332,28/11/2023,Debit Card,585.0,35.0,4,Returned,Neutral
+864,26,Male,11519,HighSchool,North,Regular,occasional,4278,Books,1,4.0,HighSchool,429,04/3/2024,Credit Card,554.0,68.0,9,Returned,Low
+866,41,Female,32479,Bachelor,South,Regular,occasional,10418,Electronics,0,4.0,Bachelor,107,17/4/2023,Credit Card,117.0,116.0,4,No Return,Low
+867,22,Male,39996,Bachelor,West,Silver,rare,10214,Food,1,6.0,Bachelor,393,28/1/2024,PayPal,642.0,42.0,2,No Return,High
+868,35,Female,29412,HighSchool,West,Regular,occasional,10539,Food,0,4.0,HighSchool,410,14/2/2024,Credit Card,402.0,18.0,4,No Return,Low
+869,28,Male,36956,Masters,East,Silver,rare,14005,Food,0,6.0,Masters,568,21/7/2024,Cash,519.0,25.0,9,No Return,High
+871,25,Male,9005,College,East,Silver,frequent,3105,Electronics,1,4.0,College,571,24/7/2024,Debit Card,954.0,128.0,1,No Return,Low
+872,31,Male,45175,HighSchool,North,Regular,occasional,10935,Clothing,0,4.0,HighSchool,542,25/6/2024,Credit Card,740.0,,7,No Return,Low
+873,25,Female,37647,College,East,Regular,occasional,14062,Electronics,0,5.0,College,564,17/7/2024,Credit Card,482.0,21.0,7,Returned,Neutral
+875,37,Male,19206,Masters,South,Silver,rare,6834,Books,1,4.0,Masters,690,20/11/2024,Debit Card,416.0,197.0,8,No Return,Low
+876,39,Female,48445,College,West,Gold,occasional,17827,Food,0,4.0,College,649,10/10/2024,Debit Card,189.0,5.0,3,No Return,Low
+877,34,Female,39481,HighSchool,North,Regular,occasional,14562,Beauty,0,5.0,HighSchool,98,08/4/2023,Cash,269.0,174.0,6,Returned,Neutral
+879,36,Female,6642,College,North,Regular,occasional,2791,Books,0,6.0,College,45,14/2/2023,Credit Card,13.0,106.0,7,Returned,High
+880,29,Male,46904,Bachelor,North,Regular,frequent,16222,Clothing,0,5.0,Bachelor,686,16/11/2024,Credit Card,548.0,14.0,6,No Return,Neutral
+881,32,Male,11344,HighSchool,East,Silver,occasional,3712,Beauty,0,6.0,HighSchool,557,10/7/2024,PayPal,477.0,77.0,5,No Return,High
+882,26,Female,14113,Bachelor,East,Regular,rare,4501,Home,0,5.0,Bachelor,394,29/1/2024,Cash,486.0,11.0,3,No Return,Neutral
+883,29,Male,31372,College,West,Regular,occasional,11111,Electronics,1,6.0,College,136,16/5/2023,Debit Card,179.0,190.0,4,No Return,High
+884,35,Female,38905,Bachelor,West,Regular,rare,15559,Food,1,5.0,Bachelor,224,12/8/2023,Debit Card,685.0,183.0,2,Returned,Neutral
+885,32,Male,6340,College,West,Regular,rare,2552,Books,1,6.0,College,223,11/8/2023,Cash,929.0,115.0,3,No Return,High
+886,32,Male,29248,College,West,Regular,frequent,9107,Food,0,6.0,College,81,22/3/2023,Debit Card,649.0,195.0,5,No Return,High
+887,25,Male,43635,Bachelor,South,Gold,occasional,13435,Health,1,6.0,Bachelor,283,10/10/2023,Cash,61.0,15.0,8,No Return,High
+888,27,Male,13388,College,South,Regular,rare,4011,Clothing,0,5.0,College,225,13/8/2023,PayPal,236.0,187.0,2,No Return,Neutral
+889,27,Male,29340,Bachelor,East,Silver,rare,11196,Books,1,5.0,Bachelor,351,17/12/2023,PayPal,377.0,90.0,4,No Return,Neutral
+890,32,Female,17528,College,West,Gold,rare,5196,Electronics,0,6.0,College,725,25/12/2024,PayPal,213.0,36.0,4,No Return,High
+892,33,Male,41000,HighSchool,North,Regular,rare,17386,Food,0,6.0,HighSchool,427,02/3/2024,PayPal,583.0,30.0,2,No Return,High
+894,38,Male,27201,Bachelor,North,Silver,rare,7202,Books,0,5.0,Bachelor,306,02/11/2023,PayPal,432.0,65.0,4,Returned,Neutral
+895,32,Female,13538,College,West,Regular,rare,4622,Books,0,4.0,College,580,02/8/2024,Credit Card,982.0,42.0,8,No Return,Low
+896,27,Female,36761,Bachelor,South,Regular,occasional,13410,Electronics,0,7.0,Bachelor,462,06/4/2024,Debit Card,369.0,57.0,4,Returned,High
+897,31,Male,28404,College,West,Silver,rare,6529,Books,1,7.0,College,470,14/4/2024,PayPal,897.0,149.0,7,No Return,High
+899,32,Female,12928,College,East,Silver,rare,4557,Electronics,0,4.0,College,615,06/9/2024,Debit Card,670.0,60.0,2,No Return,Low
+900,31,Female,24993,Bachelor,East,Regular,rare,8276,Clothing,1,7.0,Bachelor,532,15/6/2024,Debit Card,753.0,75.0,7,No Return,High
+901,25,Male,5410,College,North,Regular,rare,1908,Electronics,0,4.0,College,124,04/5/2023,Cash,935.0,2.0,4,No Return,Low
+902,26,Male,6042,College,North,Regular,rare,1738,Clothing,1,4.0,College,115,25/4/2023,PayPal,970.0,112.0,6,No Return,Low
+903,31,Female,44422,Bachelor,East,Gold,rare,12820,Electronics,0,6.0,Bachelor,160,09/6/2023,PayPal,105.0,167.0,9,No Return,High
+904,37,Female,40551,College,West,Silver,occasional,13494,Food,0,4.0,College,384,19/1/2024,Cash,54.0,37.0,1,No Return,Low
+906,27,Female,31943,Bachelor,South,Regular,rare,11937,Health,1,4.0,Bachelor,256,13/9/2023,Credit Card,318.0,153.0,4,No Return,Low
+907,34,Female,41473,Bachelor,West,Regular,occasional,10604,Food,0,6.0,Bachelor,258,15/9/2023,PayPal,205.0,181.0,1,Returned,High
+908,30,Male,49904,HighSchool,West,Regular,frequent,20868,Electronics,1,5.0,HighSchool,617,08/9/2024,Cash,296.0,138.0,5,No Return,Neutral
+911,42,Female,35317,Bachelor,East,Regular,occasional,13133,Electronics,0,4.0,Bachelor,631,22/9/2024,PayPal,631.0,69.0,1,Returned,Low
+913,30,Female,29625,College,West,Regular,frequent,11831,Health,0,5.0,College,453,28/3/2024,Credit Card,656.0,199.0,7,No Return,Neutral
+914,22,Female,48857,Masters,East,Silver,frequent,14925,Electronics,0,5.0,Masters,396,31/1/2024,Cash,86.0,8.0,6,No Return,Neutral
+916,35,Male,11005,HighSchool,East,Regular,occasional,4439,Electronics,0,5.0,HighSchool,670,31/10/2024,PayPal,356.0,119.0,6,No Return,Neutral
+917,36,Male,22826,HighSchool,East,Regular,occasional,8696,Food,0,5.0,HighSchool,708,08/12/2024,Credit Card,384.0,118.0,2,No Return,Neutral
+918,21,Male,22893,College,West,Regular,frequent,7896,Food,1,4.0,College,620,11/9/2024,Credit Card,256.0,156.0,9,No Return,Low
+920,37,Female,42845,College,North,Silver,frequent,14004,Books,0,4.0,College,88,29/3/2023,PayPal,479.0,132.0,6,No Return,Low
+921,28,Male,39154,Bachelor,East,Silver,rare,15024,Home,0,6.0,Bachelor,268,25/9/2023,Cash,626.0,120.0,4,No Return,High
+922,29,Female,26457,College,East,Regular,rare,10042,Clothing,1,5.0,College,565,18/7/2024,PayPal,918.0,39.0,5,Returned,Neutral
+924,32,Male,37378,HighSchool,South,Regular,occasional,12723,Books,0,4.0,HighSchool,489,03/5/2024,Credit Card,960.0,93.0,4,Returned,Low
+926,36,Female,30897,Bachelor,East,Silver,occasional,8724,Beauty,0,5.0,Bachelor,56,25/2/2023,Credit Card,42.0,60.0,9,No Return,Neutral
+928,31,Female,20232,College,West,Silver,frequent,8085,Food,0,5.0,College,735,04/1/2025,Cash,907.0,58.0,6,Returned,Neutral
+930,32,Male,33193,Bachelor,West,Regular,rare,13482,Food,0,5.0,Bachelor,97,07/4/2023,Credit Card,410.0,129.0,1,No Return,Neutral
+931,31,Female,46647,College,North,Regular,rare,15473,Food,0,7.0,College,37,06/2/2023,Debit Card,840.0,168.0,3,No Return,High
+933,30,Male,29923,College,South,Silver,frequent,10126,Books,0,7.0,College,586,08/8/2024,PayPal,305.0,175.0,9,No Return,High
+935,30,Male,17871,College,West,Regular,occasional,6070,Electronics,0,5.0,College,521,04/6/2024,Debit Card,883.0,26.0,2,Returned,Neutral
+937,27,Male,20346,HighSchool,South,Silver,occasional,7577,Electronics,0,6.0,HighSchool,485,29/4/2024,Debit Card,64.0,41.0,6,No Return,High
+939,29,Male,10967,College,East,Silver,rare,3651,Beauty,0,5.0,College,146,26/5/2023,Credit Card,506.0,95.0,5,No Return,Neutral
+940,36,Female,9001,Bachelor,East,Regular,frequent,3479,Food,1,7.0,Bachelor,655,16/10/2024,Credit Card,321.0,92.0,8,No Return,High
+941,35,Female,18740,Masters,South,Regular,frequent,5239,Books,1,4.0,Masters,132,12/5/2023,Debit Card,496.0,65.0,6,No Return,Low
+942,28,Male,33392,College,East,Regular,occasional,13091,Clothing,1,6.0,College,675,05/11/2024,PayPal,172.0,151.0,4,No Return,High
+943,22,Male,29763,Bachelor,West,Gold,occasional,11171,Food,0,5.0,Bachelor,110,20/4/2023,PayPal,518.0,23.0,7,No Return,Neutral
+945,28,Male,35559,HighSchool,East,Regular,frequent,11659,Electronics,0,6.0,HighSchool,546,29/6/2024,Credit Card,933.0,,8,No Return,High
+946,30,Male,15882,Bachelor,West,Regular,rare,4375,Clothing,1,4.0,Bachelor,541,24/6/2024,Cash,349.0,,7,No Return,Low
+948,39,Male,20091,College,West,Silver,frequent,6065,Health,0,6.0,College,57,26/2/2023,Debit Card,193.0,72.0,9,Returned,High
+951,29,Female,40333,College,West,Regular,frequent,14979,Electronics,0,5.0,College,60,01/3/2023,PayPal,705.0,77.0,4,No Return,Neutral
+952,26,Male,14275,Bachelor,East,Regular,occasional,4794,Electronics,0,3.0,Bachelor,186,05/7/2023,Credit Card,38.0,1.0,1,No Return,Low
+953,31,Male,34023,Masters,East,Silver,rare,10398,Beauty,1,6.0,Masters,465,09/4/2024,PayPal,451.0,168.0,8,Returned,High
+954,31,Male,44121,Bachelor,East,Regular,occasional,16804,Electronics,0,4.0,Bachelor,183,02/7/2023,Cash,426.0,85.0,6,No Return,Low
+955,32,Female,9578,Masters,West,Regular,occasional,3202,Health,1,6.0,Masters,253,10/9/2023,PayPal,337.0,25.0,4,No Return,High
+956,23,Male,28209,HighSchool,West,Regular,rare,9032,Clothing,0,6.0,HighSchool,523,06/6/2024,PayPal,673.0,145.0,9,No Return,High
+958,31,Male,44818,Masters,North,Regular,rare,11191,Clothing,0,5.0,Masters,749,18/1/2025,Cash,357.0,56.0,2,No Return,Neutral
+961,34,Male,49663,HighSchool,South,Silver,rare,12079,Electronics,0,7.0,HighSchool,569,22/7/2024,Credit Card,941.0,2.0,9,No Return,High
+962,40,Female,6852,Masters,North,Silver,rare,2201,Food,0,5.0,Masters,697,27/11/2024,Credit Card,900.0,63.0,9,No Return,Neutral
+963,31,Male,17777,College,East,Regular,rare,5231,Electronics,1,4.0,College,365,31/12/2023,Debit Card,773.0,4.0,4,No Return,Low
+967,22,Male,26277,College,West,Silver,frequent,9623,Electronics,1,5.0,College,244,01/9/2023,PayPal,762.0,57.0,7,No Return,Neutral
+968,23,Female,27935,College,South,Regular,rare,8907,Books,1,4.0,College,233,21/8/2023,Debit Card,34.0,49.0,6,No Return,Low
+969,30,Male,30540,Masters,East,Regular,rare,10879,Food,0,4.0,Masters,82,23/3/2023,Credit Card,339.0,101.0,6,Returned,Low
+972,21,Female,46882,Masters,East,Regular,rare,15077,Electronics,0,5.0,Masters,416,20/2/2024,PayPal,558.0,111.0,3,No Return,Neutral
+974,25,Female,5798,HighSchool,South,Regular,frequent,2230,Food,0,4.0,HighSchool,169,18/6/2023,Cash,543.0,132.0,5,No Return,Low
+976,25,Male,38982,Masters,East,Regular,rare,12892,Clothing,1,7.0,Masters,328,24/11/2023,PayPal,517.0,103.0,4,No Return,High
+977,26,Male,8390,Bachelor,South,Regular,frequent,3225,Books,0,3.0,Bachelor,113,23/4/2023,Debit Card,536.0,194.0,2,No Return,Low
+978,30,Male,40061,College,West,Silver,frequent,10701,Clothing,0,4.0,College,302,29/10/2023,Credit Card,495.0,34.0,9,No Return,Low
+979,29,Female,48936,Bachelor,West,Regular,rare,19474,Clothing,0,7.0,Bachelor,722,22/12/2024,PayPal,659.0,93.0,9,No Return,High
+980,31,Male,43475,College,East,Gold,rare,15618,Health,1,4.0,College,237,25/8/2023,Cash,839.0,119.0,4,No Return,Low
+981,40,Female,33181,HighSchool,East,Silver,occasional,10901,Electronics,0,7.0,HighSchool,633,24/9/2024,Credit Card,776.0,136.0,4,No Return,High
+982,25,Male,16582,College,South,Regular,rare,6217,Electronics,0,6.0,College,205,24/7/2023,Credit Card,257.0,169.0,7,No Return,High
+983,29,Male,20801,College,West,Silver,rare,7744,Food,1,5.0,College,414,18/2/2024,Credit Card,408.0,22.0,3,No Return,Neutral
+984,28,Male,11298,HighSchool,East,Regular,rare,4067,Food,0,5.0,HighSchool,732,01/1/2025,Cash,820.0,147.0,7,Returned,Neutral
+985,37,Male,6379,College,South,Regular,rare,2323,Food,0,4.0,College,538,21/6/2024,PayPal,229.0,,9,No Return,Low
+986,27,Female,10221,HighSchool,West,Regular,rare,3365,Electronics,0,4.0,HighSchool,743,12/1/2025,Cash,463.0,180.0,2,No Return,Low
+988,34,Female,8821,HighSchool,South,Gold,occasional,3121,Electronics,0,5.0,HighSchool,581,03/8/2024,Debit Card,469.0,123.0,5,No Return,Neutral
+989,25,Male,47306,Bachelor,West,Silver,rare,19285,Clothing,0,5.0,Bachelor,353,19/12/2023,Credit Card,448.0,62.0,7,No Return,Neutral
+990,37,Female,48890,HighSchool,West,Regular,frequent,17164,Clothing,1,5.0,HighSchool,210,29/7/2023,Cash,894.0,171.0,9,No Return,Neutral
+992,25,Female,5457,HighSchool,South,Regular,rare,1718,Electronics,0,5.0,HighSchool,527,10/6/2024,Debit Card,611.0,122.0,3,No Return,Neutral
+993,32,Male,9104,Bachelor,West,Silver,rare,3724,Clothing,0,7.0,Bachelor,54,23/2/2023,Credit Card,775.0,88.0,5,No Return,High
+994,29,Female,17837,HighSchool,West,Silver,occasional,7321,Electronics,1,5.0,HighSchool,288,15/10/2023,Credit Card,164.0,26.0,9,No Return,Neutral
+995,31,Male,11502,Masters,West,Regular,occasional,3725,Clothing,1,6.0,Masters,201,20/7/2023,Debit Card,924.0,85.0,5,No Return,High
+996,30,Female,18444,College,West,Regular,frequent,8090,Electronics,0,4.0,College,573,26/7/2024,PayPal,582.0,149.0,3,No Return,Low
+997,35,Male,23348,Bachelor,South,Regular,frequent,7912,Books,1,6.0,Bachelor,261,18/9/2023,Credit Card,936.0,37.0,3,No Return,High
+998,24,Male,7627,HighSchool,West,Regular,occasional,2561,Electronics,0,5.0,HighSchool,179,28/6/2023,Debit Card,442.0,115.0,3,No Return,Neutral
+1000,29,Female,5688,Bachelor,East,Regular,occasional,1854,Electronics,1,5.0,Bachelor,374,09/1/2024,PayPal,601.0,25.0,9,Returned,Neutral
