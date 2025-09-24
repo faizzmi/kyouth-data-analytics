@@ -188,6 +188,9 @@ plt.show()
 
 =======================================================================
 Scatterplot: Best when both variables are continuous
+source:
+- https://seaborn.pydata.org/generated/seaborn.scatterplot.html
+- https://www.geeksforgeeks.org/python/scatterplot-using-seaborn-in-python/
 =======================================================================
 
 code:
@@ -198,3 +201,75 @@ plt.xlabel("Purchase Amount")
 plt.ylabel("Income (RM)")
 plt.grid(True)
 plt.show()
+
+=======================================================================
+Box Plot: understand the distribution of a numeric variable, spot the
+median and spread, and easily detect outliers or unusual values.
+source:
+- https://www.geeksforgeeks.org/data-visualization/box-plot-visualization-with-pandas-and-seaborn/
+- https://seaborn.pydata.org/generated/seaborn.boxplot.html
+=======================================================================
+code:
+
+plt.figure(figsize=(8,5))
+sns.boxplot(x=df["total_spend"])
+plt.title("Distribution of Total Spend per Transaction")
+plt.xlabel("Total Spend")
+plt.show()
+
+======================================================================= hate this
+Violin Plot: highlights where most values are and how varied the data is.
+It also shows the median and range, like a box plot.
+This makes it easy to compare distributions between groups.
+- https://seaborn.pydata.org/generated/seaborn.violinplot.html
+- https://www.geeksforgeeks.org/python/violinplot-using-seaborn-in-python/
+=======================================================================
+code:
+plt.figure(figsize=(10,6))
+sns.violinplot(
+    data=merged_df,
+    x="payment_method",
+    y="purchase_amount",
+    hue="payment_method",
+    palette="Set1",
+    legend=False
+)
+
+plt.title("Distribution of Purchase Amount by Payment Method")
+plt.xlabel("Payment Method")
+plt.ylabel("Purchase Amount")
+plt.show()
+
+======================================================================= hate this
+Violin Plot: highlights where most values are and how varied the data is.
+It also shows the median and range, like a box plot.
+This makes it easy to compare distributions between groups.
+- https://seaborn.pydata.org/generated/seaborn.violinplot.html
+- https://www.geeksforgeeks.org/python/violinplot-using-seaborn-in-python/
+=======================================================================
+
+# make sure to pip install first or can check the version if dy
+pip install squarify
+
+=======================================================================
+tree map - helps you quickly see which categories are biggest or most
+important and compare them at a glance.
+source:
+- https://www.geeksforgeeks.org/data-visualization/treemaps-in-python-using-squarify/
+=======================================================================
+
+code:
+category_spent = merged_df.groupby("product_category")["total_spent"].sum().sort_values(ascending=False)
+
+plt.figure(figsize=(8,5))
+squarify.plot(
+    sizes=category_spent.values,
+    label=category_spent.index,
+    alpha=0.8
+    # Alpha = 1 → fully opaque (solid color).
+    # Alpha = 0 → fully transparent (invisible).
+)
+plt.title("Total Spending by Product Category")
+plt.axis('off')
+plt.show()
+
