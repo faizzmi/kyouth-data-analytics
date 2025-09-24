@@ -168,3 +168,33 @@ plt.tight_layout()
 
 plt.show()
 
+### by using seaborn lib it generate more detail compared to matplotlib
+
+=======================================================================
+HeatMap: quickly visualize correlations between all numerical variables at once, helping to spot strong relationships
+or redundancies and decide which pairs are worth exploring further with detailed plots like scatter plots.
+=======================================================================
+
+code:
+numerical_cols = merged_df.select_dtypes(include='number').drop(columns='id', errors='ignore')
+
+corr_matrix = numerical_cols.corr()
+
+plt.figure(figsize=(10,8))
+sns.heatmap(corr_matrix, annot=True, fmt=".2f", square=True, cmap='coolwarm')
+plt.title("Correlation Heatmap of Numerical Features")
+plt.tight_layout()
+plt.show()
+
+=======================================================================
+Scatterplot: Best when both variables are continuous
+=======================================================================
+
+code:
+plt.figure(figsize=(10,6))
+sns.scatterplot(x=numerical_cols['purchase_amount'], y=numerical_cols['income'], alpha=0.6)
+plt.title("Scatter Plot: Purchase Amount vs Income")
+plt.xlabel("Purchase Amount")
+plt.ylabel("Income (RM)")
+plt.grid(True)
+plt.show()
